@@ -1,6 +1,6 @@
 // TODO: Replace and stop tracking
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 $font-family-sans-serif: 'Source Sans Pro', sans-serif;
 
@@ -18,11 +18,22 @@ body {
   min-width: 300px;
 }
 
+h1, h2, h3, h4, h5
+{
+    font-weight: bold;
+}
+
 .main-update {
     color: #FFF;
     font-size: 20px;
     font-weight: bold;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
+}
+
+footer
+{
+    padding: 20px;
+    background-color: $success;
 }
 
 .custom-navbar {

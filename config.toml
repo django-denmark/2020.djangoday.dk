@@ -32,16 +32,20 @@ theme = "djangoday"
 
 [menu]
   [[menu.nav]]
-  name = "Posts"
+  name = "Start"
   url = "/"
   weight = 1
   [[menu.nav]]
-  name = "Tags"
-  url = "/tags/"
+  name = "Venue"
+  url = "/venue/"
+  weight = 3
+  [[menu.nav]]
+  name = "Tickets"
+  url = "/"
   weight = 2
   [[menu.nav]]
-  name = "About"
-  url = "/about/"
+  name = "Call for Participation"
+  url = "/cfp/"
   weight = 3
   [[menu.nav]]
   name = "RSS"

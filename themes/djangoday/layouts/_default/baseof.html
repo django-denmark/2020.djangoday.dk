@@ -9,7 +9,7 @@
     <div class="container" style="min-height: 100px;">
     <div style="padding: 10px 0;">
       <a href="/">
-        <img src="djangocph.svg" style="margin-top: 20px;float: right; display: block; background-color: #fff; right: 0" class="rounded-circle">
+        <img src="/djangocph.svg" style="margin-top: 20px;float: right; display: block; background-color: #fff; right: 0" class="rounded-circle">
       </a>
     <div class="main-update">
         Django Day 2020<br>
@@ -27,6 +27,21 @@
       {{ block "main" . }}{{ end }}
     </article>
   </div>
+
+<footer>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+        Freenode IRC: #djangocph<br>
+        Twitter: <a href="https://twitter.com/djangocph">@djangocph</a>
+        </div>
+        <div class="col-md-6">
+        Email: <a href="mailto:info@django-denmark.org">info@django-denmark.org</a><br>
+        Phone: +45 42929666
+        </div>
+    </div>
+    </div>
+</footer>
 
   {{ partial "bootstrap-js.html" . }}
 </body>
