@@ -27,8 +27,9 @@
 
   <meta name="theme-color" content="{{ .Site.Params.faviconThemeColor }}">
 
-  {{ $bootstrapCss := "css/bootstrap.min.css" }}
-  <link rel="stylesheet" href="{{ $bootstrapCss | absURL }}" />
+  {{ $sass := resources.Get "sass/djangoday.scss" }}
+  {{ $style := $sass | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
 
   {{ if .IsHome }}
   {{ $homepage := "Home" }}
@@ -42,5 +43,4 @@
   <title>{{ .Title }} | {{ .Site.Title }}</title>
   {{ end }}
 
-  {{ partial "style.html" . }}
 </head>

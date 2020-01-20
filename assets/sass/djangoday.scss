@@ -1,11 +1,39 @@
-<style>
+// TODO: Replace and stop tracking
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+
+$font-family-sans-serif: 'Source Sans Pro', sans-serif;
+
+$primary: #e01a4f;
+$secondary: #f15946;
+$success:  #53b3cb;
+$info:   #f9c22e;
+$warning:  #f15946;
+$danger:   #e01a4f;
+$dark:   #0c090d;
+
+@import "bootstrap/bootstrap";
+
 body {
   min-width: 300px;
+}
+
+.main-update {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .custom-navbar {
   margin-bottom: 1em;
   height: 60px;
+  background-color: $dark;
+}
+
+.djangoday-logo
+{
+    background-color: $primary;
 }
 
 .custom-navbar a {
@@ -34,91 +62,36 @@ img {
   max-width: 100%;
 }
 
-{{ with .Site.Params.contentBackgroundColor }}
-body {
-  background-color: {{ . | safeCSS }};
-}
-{{ else }}
 body {
   background-color: #fff;
 }
-{{ end }}
 
-{{ with .Site.Params.contentTextColor }}
-body {
-  color: {{ . | safeCSS }};
-}
-{{ else }}
 body {
   color: #212529;
 }
-{{ end }}
 
-{{ with .Site.Params.contentLinkColor }}
-a {
-  color: {{ . | safeCSS }};
-}
-{{ else }}
 a {
   color: #007bff;
 }
-{{ end }}
 
-{{ with .Site.Params.contentLinkHoverColor }}
-a:hover,
-a:focus {
-  color: {{ . | safeCSS }};
-}
-{{ else }}
 a:hover,
 a:focus {
   color: #0056b3;
 }
-{{ end }}
 
-{{ with .Site.Params.navbarBackgroundColor }}
-.custom-navbar {
-  background-color: {{ . | safeCSS }};
-}
-{{ else }}
-.custom-navbar {
-  background-color: #212529;
-}
-{{ end }}
-
-{{ with .Site.Params.navbarLinkColor }}
-.custom-navbar a {
-  color: {{ . | safeCSS }};
-}
-{{ else }}
 .custom-navbar a {
   color: rgba(255,255,255,.75);
 }
-{{ end }}
 
-{{ with .Site.Params.navbarLinkHoverColor }}
-.custom-navbar a:hover,
-.custom-navbar a:focus {
-  color: {{ . | safeCSS }};
-}
-{{ else }}
 .custom-navbar a:hover,
 .custom-navbar a:focus {
   color: rgba(255,255,255,1);
 }
-{{ end }}
 
-{{ with .Site.Params.wrapperMaxWidth }}
-.container {
-  max-width: {{ . | safeCSS }};
-}
-{{ else }}
 .container {
   max-width: 800px;
 }
-{{ end }}
 
-{{ if eq .Site.Params.customCodeStyle true }}
 pre {
   display: block;
   padding: 9.5px;
@@ -147,9 +120,7 @@ code {
   border-radius: 4px;
   font-size: .9em;
 }
-{{ end }}
 
-{{ if eq .Site.Params.customBlockquoteStyle true }}
 blockquote,
 .blockquote {
   padding: 10px 20px;
@@ -157,5 +128,3 @@ blockquote,
   font-size: 1em;
   border-left: 5px solid #6c757d;
 }
-{{ end }}
-</style>
