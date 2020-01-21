@@ -10,7 +10,7 @@ menu:
 weight: 30
 ---
 
-This text is from [The Berlin Code of Conduct](https://berlincodeofconduct.org/), no amendments have been made.
+This text is adapted from [The Berlin Code of Conduct](https://berlincodeofconduct.org/).
 
 Purpose
 -------
@@ -64,9 +64,11 @@ If You Witness or Are Subject to Unacceptable Behavior
 
 If you are subject to or witness unacceptable behavior,
 or have any other concerns, please notify a community organizer as soon as
-possible. You can find a list of organizers to contact for each of the
-supporters of this code of conduct at the bottom of this page. Additionally,
-community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.
+possible or write [conduct@django-denmark.org](mailto:conduct@django-denmark.org).
+Additionally, community organizers are available to help community members engage
+with local law enforcement or to otherwise help those experiencing unacceptable
+behavior feel safe. In the context of in-person events, organizers will also provide
+escorts as desired by the person experiencing distress.
 
 
 Addressing Grievances
