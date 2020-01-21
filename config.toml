@@ -48,6 +48,10 @@ theme = "djangoday"
   url = "/cfp/"
   weight = 3
   [[menu.nav]]
+  name = "Conduct"
+  url = "/conduct/"
+  weight = 4
+  [[menu.nav]]
   name = "RSS"
   url = "/index.xml"
   weight = 4
