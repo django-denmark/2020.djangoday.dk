@@ -1,4 +1,4 @@
-baseURL = "https://djangoday.dk"
+baseURL = "https://dev.djangoday.dk"
 languageCode = "en-us"
 title = "DjangoDay"
 theme = "djangoday"
