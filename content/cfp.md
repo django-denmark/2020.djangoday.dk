@@ -32,6 +32,13 @@ We are looking for:
 * Advancing and advocating Django in Denmark and the Nordic region.
 * Whatever you deem appropriate – it’s your event!
 
+## Deadline 🔥
+
+Submit before **February 2nd 2020 23:59:59 UTC+1**. Program will be announced on March 1st.
+
+## Bonus 🎁
+
+If your submission is accepted, you will get a voucher for a free ticket. Lightning Talks do not qualify.
 
 ## Submission 🧐
 
