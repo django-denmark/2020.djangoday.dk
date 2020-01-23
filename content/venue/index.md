@@ -13,7 +13,7 @@ The event takes place at the top floor hall of the Library @
 
 ## Party
 
-After the main event, there will be a party with Flying Couch (TBA).
+After the main event, there will be a party at a separate venue (TBA).
 
 ## Photos
 
