@@ -22,6 +22,29 @@ Come and meet your local and excellent community and share with them.
 
 The event will accommodate ~100 people.
 
+# Program
+
+## Chris Adams
+
+### Greening Django
+
+We're in a climate emergency, and as the world goes digital, we run the risk
+from going from software eating the world, to software heating the world.
+
+Chris Adams, from the Green Web Foundation and [ClimateAction.tech](https://climateaction.tech/) will show how
+to quantify the emissions from the digital projects you work on, and how to make
+measurable differences, from optimising code, to thinking structurally about how
+you spend your time as a web professional.
+
+## Nynne Just Christoffersen
+
+### Mega-Very-Cool: The story of how the MVC Pattern Was Developed
+
+We all know and love the MVC pattern. But why is it so great? Did you ever work
+with a project with another worldview? Do you know what came before this
+brilliant and elegant separation solution? This talk takes you through the story
+of how MVC was developed and why we should really appreciate it.
+
 # Previous events
 
 ## DjangoCon Europe 2019

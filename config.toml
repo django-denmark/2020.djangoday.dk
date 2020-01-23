@@ -51,10 +51,6 @@ theme = "djangoday"
   name = "Conduct"
   url = "/conduct/"
   weight = 4
-  [[menu.nav]]
-  name = "RSS"
-  url = "/index.xml"
-  weight = 4
 
 [markup]
   defaultMarkdownHandler = "goldmark"
