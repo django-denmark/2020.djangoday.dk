@@ -7,6 +7,8 @@ draft: false
 
 **These buttons will soon come to live!**
 
+**Prices include 25% VAT**
+
 When ordering tickets, you will be asked questions about dietary preferences and
 if you want to be a member of Django Denmark, our association behind Django Day.
 All of this is with no additional costs.
@@ -14,8 +16,6 @@ All of this is with no additional costs.
 <button type="button" class="btn btn-lg btn-primary" disabled>Individual ticket - DKK 500</button>
 
 You can also be a corporate supporter w/ tickets. See below.
-
-**Prices include 25% VAT**
 
 ## Party ticket
 
@@ -45,6 +45,4 @@ Django Day) and getting your logo and link shown on the Django Day front page.
 * All the talks!
 * A modest breakfast, lunch and cake
 * Networking drinks afterwards
-* Extra option: Drinks and dinner (Friday evening event)
-
-The sale is coming up shortly.
+* Free optional membership of Django Denmark
