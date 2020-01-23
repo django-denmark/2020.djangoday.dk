@@ -24,6 +24,11 @@ The event will accommodate ~100 people.
 
 # Program
 
+We will present a full day of talks, all connected to modern issues faced by
+Django developers of all experiences. In addition to this, the day will end with
+a round of lightning talks. Please standby, as we announce the full
+program on March 1st. You can [submit your proposal](/cfp/) until February 2nd.
+
 ## Chris Adams
 
 ### Greening Django
