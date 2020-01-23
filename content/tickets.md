@@ -7,13 +7,13 @@ draft: false
 
 These buttons will soon come to live!
 
-When ordering tickets, you will be asked questions about dietary preferences.
-
-<button type="button" class="btn btn-lg btn-primary" disabled>Django Denmark individual membership w/ ticket DKK 500</button>
+When ordering tickets, you will be asked questions about dietary preferences and
+if you want to be a member of Django Denmark, our association behind Django Day.
+All of this is with no additional costs.
 
 <button type="button" class="btn btn-lg btn-primary" disabled>Individual ticket - DKK 500</button>
 
-You can also buy a corporate supporter membership w/ tickets. See below.
+You can also be a corporate supporter w/ tickets. See below.
 
 ## Party ticket
 
