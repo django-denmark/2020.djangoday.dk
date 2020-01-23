@@ -29,8 +29,8 @@ dinner and 2 drink tickets.
 ## Corporate supporters <span class="badge badge-success">New</span>
 
 Become a corporate supporter of Django Denmark and get tickets to the annual
-Django Day, posting jobs on Django Denmark's sites and getting your logo and
-link shown on the Django Day front page.
+Django Day, 1 year of posting jobs on Django Denmark's sites (until next
+Django Day) and getting your logo and link shown on the Django Day front page.
 
 <button type="button" class="btn btn-lg btn-primary" disabled>Corporate support w/ 1 ticket - DKK 1500</button>
 
