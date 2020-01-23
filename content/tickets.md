@@ -7,7 +7,7 @@ draft: false
 
 **These buttons will soon come to live!**
 
-**Prices include 25% VAT**
+**Prices include 25% VAT, excluding service fees**
 
 When ordering tickets, you will be asked questions about dietary preferences and
 if you want to be a member of Django Denmark, our association behind Django Day.
@@ -39,7 +39,7 @@ Your name will also be added to our Wall of Fame.
 
 <button type="button" class="btn btn-lg btn-primary" disabled>Corporate support w/ 5 tickets - DKK 5000</button>
 
-**Prices include 25% VAT**
+**Prices include 25% VAT, excluding service fees**
 
 ## Tickets include:
 
