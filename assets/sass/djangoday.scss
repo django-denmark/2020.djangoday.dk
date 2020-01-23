@@ -14,8 +14,9 @@ $dark:   #0c090d;
 
 @import "bootstrap/bootstrap";
 
-body {
+body, html {
   min-width: 300px;
+  height:100%;
 }
 
 h1, h2, h3, h4, h5
@@ -35,6 +36,23 @@ footer
 {
     padding: 20px;
     background-color: $success;
+    color: #fff;
+    font-family: monospace;
+    font-size: 90%;
+    a {
+        color: #FFF;
+        text-decoration: underline;
+    }
+
+   height:100px;   /* Height of the footer */
+}
+
+#article
+{
+    min-height: 70%;
+    min-height: -webkit-calc(100% - 300px);
+    min-height: -moz-calc(100% - 300px);
+    min-height: calc(100% - 300px);
 }
 
 .custom-navbar {

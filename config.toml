@@ -41,7 +41,7 @@ theme = "djangoday"
   weight = 3
   [[menu.nav]]
   name = "Tickets"
-  url = "/"
+  url = "/tickets/"
   weight = 2
   [[menu.nav]]
   name = "Call for Participation"

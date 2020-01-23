@@ -22,7 +22,7 @@
 
   {{ partial "nav.html" . }}
   
-  <div class="container">
+  <div class="container" id="article">
     <article>
       {{ block "main" . }}{{ end }}
     </article>
@@ -32,12 +32,12 @@
     <div class="container">
     <div class="row">
         <div class="col-md-6">
-        Freenode IRC: #djangocph<br>
-        Twitter: <a href="https://twitter.com/djangocph">@djangocph</a>
+        <a href="https://github.com/djangocph/djangoday.dk" target="_blank">Contribute to this website on Github</a><br>
+        Meet us on <a href="https://opensource.com/article/16/6/getting-started-irc" target="_blank">Freenode IRC</a>: #djangocph<br>
+        Twitter: <a href="https://twitter.com/djangocph" target="_blank">@djangocph</a>
         </div>
         <div class="col-md-6">
-        Email: <a href="mailto:info@django-denmark.org">info@django-denmark.org</a><br>
-        Phone: +45 42929666
+        Email: <a href="mailto:info@django-denmark.org">info@django-denmark.org</a>
         </div>
     </div>
     </div>
