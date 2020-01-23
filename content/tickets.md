@@ -5,7 +5,7 @@ description: Ticket information for Django Day 2020
 draft: false
 ---
 
-These buttons will soon come to live!
+**These buttons will soon come to live!**
 
 When ordering tickets, you will be asked questions about dietary preferences and
 if you want to be a member of Django Denmark, our association behind Django Day.
@@ -24,7 +24,7 @@ dinner and 2 drink tickets.
 
 <button type="button" class="btn btn-lg btn-primary" disabled>Party ticket - DKK 100</button>
 
-## Corporate supporters <span class="badge">New</span>
+## Corporate supporters <span class="badge badge-success">New</span>
 
 Become a corporate supporter of Django Denmark and get tickets to
 the annual Django Day, posting jobs on Django Denmark's sites and
