@@ -24,6 +24,21 @@ h1, h2, h3, h4, h5
     font-weight: bold;
 }
 
+h1
+{
+    background-color: $info;
+    padding: 10px;
+    border: 4px dotted $primary;
+    color: #fff;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: monospace;
+    transform: rotate(-1deg);
+    width: auto;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
 .main-update {
     padding: 20px 0;
     color: #FFF;
