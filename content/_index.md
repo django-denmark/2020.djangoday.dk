@@ -91,6 +91,17 @@ announce 8-12 names, depending on the length of submitted talks.
 
 <div style="clear: both"></div>
 
+# Who are we?
+
+Django Day is brought to you by [Django Denmark](https://www.django-denmark.org/),
+an association formed in 2018 with the aim of creating and supporting education
+and networking activities in relation to The Django Web Framework.
+
+## We can use your help
+
+If you want to help us with Django Day, please send us an email to
+[info@django-denmark.org](mailto:info@django-denmark.org).
+
 # Previous events
 
 ## DjangoCon Europe 2019

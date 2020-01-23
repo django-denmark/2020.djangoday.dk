@@ -15,6 +15,8 @@ All of this is with no additional costs.
 
 You can also be a corporate supporter w/ tickets. See below.
 
+**Prices include 25% VAT**
+
 ## Party ticket
 
 After the Friday event, we have booked a party venue from 19-24.
@@ -22,20 +24,21 @@ After the Friday event, we have booked a party venue from 19-24.
 The party ticket requires that you have a ticket for the event. It includes
 dinner and 2 drink tickets.
 
-<button type="button" class="btn btn-lg btn-primary" disabled>Party ticket - DKK 100</button>
+<button type="button" class="btn btn-lg btn-primary" disabled>Party ticket - DKK 175</button>
 
 ## Corporate supporters <span class="badge badge-success">New</span>
 
-Become a corporate supporter of Django Denmark and get tickets to
-the annual Django Day, posting jobs on Django Denmark's sites and
-getting your logo and link shown on the Django Day front page.
+Become a corporate supporter of Django Denmark and get tickets to the annual
+Django Day, posting jobs on Django Denmark's sites and getting your logo and
+link shown on the Django Day front page.
 
-<button type="button" class="btn btn-lg btn-primary" disabled>Corporate support w/ 1 ticket - DKK 2000</button>
+<button type="button" class="btn btn-lg btn-primary" disabled>Corporate support w/ 1 ticket - DKK 1500</button>
+
+<button type="button" class="btn btn-lg btn-primary" disabled>Corporate support w/ 2 tickets - DKK 2500</button>
 
 <button type="button" class="btn btn-lg btn-primary" disabled>Corporate support w/ 5 tickets - DKK 5000</button>
 
-<button type="button" class="btn btn-lg btn-primary" disabled>Corporate support w/ 10 tickets - DKK 10000</button>
-
+**Prices include 25% VAT**
 
 ## Tickets include:
 
