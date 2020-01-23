@@ -47,10 +47,6 @@ theme = "djangoday"
   name = "Call for Participation"
   url = "/cfp/"
   weight = 3
-  [[menu.nav]]
-  name = "Conduct"
-  url = "/conduct/"
-  weight = 4
 
 [markup]
   defaultMarkdownHandler = "goldmark"
