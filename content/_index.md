@@ -24,10 +24,23 @@ The event will accommodate ~100 people.
 
 # Program
 
-We will present a full day of talks, all connected to modern issues faced by
-Django developers of all experiences. In addition to this, the day will end with
-a round of lightning talks. Please standby, as we announce the full
-program on March 1st. You can [submit your proposal](/cfp/) until February 2nd.
+A full day of talks will be presented here, all connected to modern issues faced
+by Django developers of all experiences. And don't worry: It's a single-track
+event, meaning that you won't have to miss anything. The day will end
+with a round of **lightning talks**, which can be submitted on the day of the event,
+and be drawn during the day.
+
+Please standby, as we announce the full program on March 1st. You can
+[submit your proposal](/cfp/) until February 2nd.
+
+
+{{< imgProc 
+img="chris.jpeg" 
+command="Fill" 
+options="150x150" 
+alt="Main speaker" 
+class="img-speaker float-right" 
+>}}
 
 ## Chris Adams
 
@@ -41,6 +54,16 @@ to quantify the emissions from the digital projects you work on, and how to make
 measurable differences, from optimising code, to thinking structurally about how
 you spend your time as a web professional.
 
+<div style="clear: both"></div>
+
+{{< imgProc 
+img="nynne.jpeg" 
+command="Fill" 
+options="150x150" 
+alt="Main speaker" 
+class="img-speaker float-right" 
+>}}
+
 ## Nynne Just Christoffersen
 
 ### Mega-Very-Cool: The story of how the MVC Pattern Was Developed
@@ -49,6 +72,24 @@ We all know and love the MVC pattern. But why is it so great? Did you ever work
 with a project with another worldview? Do you know what came before this
 brilliant and elegant separation solution? This talk takes you through the story
 of how MVC was developed and why we should really appreciate it.
+
+<div style="clear: both"></div>
+
+{{< imgProc 
+img="tba.png" 
+command="Fit" 
+options="150x150" 
+alt="Main building" 
+class="img-speaker float-right" 
+>}}
+
+## More to come...
+
+Please [submit your proposal](/cfp/) before the deadline! Even if you have never
+given a talk before, Django Day is open for you. We expect to be able to
+announce 8-12 names, depending on the length of submitted talks.
+
+<div style="clear: both"></div>
 
 # Previous events
 
@@ -62,7 +103,7 @@ Please have a look here: [2019.djangocon.eu](https://2019.djangocon.eu)
 
 ## DjangoDay 2018
 
-Django Copenhagen Day 2018 (slides etc. archived [here](/2019/)) was fantastic
+Django Copenhagen Day 2018 (slides etc. archived [here](https://2018.djangoday.dk/)) was fantastic
 and we'll look forward to the next time! Coming up soon: Plan, date etc. for
 next year + maybe some pictures from last time.. get in touch on twitter and
 don't forget to sign up to the newsletter and on django-denmark.org.

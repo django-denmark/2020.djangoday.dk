@@ -28,7 +28,7 @@ h1
 {
     background-color: $info;
     padding: 10px;
-    border: 4px dotted $primary;
+    border: 3px dotted $primary;
     color: #fff;
     border-radius: 20px;
     text-transform: uppercase;
@@ -59,7 +59,7 @@ footer
         text-decoration: underline;
     }
 
-   height:140px;   /* Height of the footer */
+   min-height:100px;   /* Height of the footer */
 }
 
 #article
@@ -68,6 +68,14 @@ footer
     min-height: -webkit-calc(100% - 300px);
     min-height: -moz-calc(100% - 300px);
     min-height: calc(100% - 300px);
+}
+
+.img-speaker
+{
+    @extend .rounded-circle;
+    border: 3px dotted $primary;
+    padding: 2px;
+    margin: 20px;
 }
 
 .custom-navbar {
