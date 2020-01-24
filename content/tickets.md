@@ -26,20 +26,20 @@ dinner and 2 drink tickets.
 
 <button type="button" class="btn btn-lg btn-primary" disabled>Party ticket - DKK 175</button>
 
-## Corporate supporters <span class="badge badge-success">New</span>
+## Corporate Supporters <span class="badge badge-success">New</span>
 
-Become a corporate supporter of Django Denmark and get tickets to the annual
+Become a Corporate Supporter of Django Denmark and get tickets to the annual
 Django Day, 1 year of posting jobs on Django Denmark's sites (until next
 Django Day) and getting your logo and link shown on the Django Day front page.
 Your name will also be added to our Wall of Fame.
 
-<button type="button" class="btn btn-lg btn-primary" disabled>Corporate support w/ 1 ticket - DKK 1500</button>
+<button type="button" class="btn btn-lg btn-primary" disabled>Corporate Supporter w/ 1 ticket - DKK 1500</button>
 
-<button type="button" class="btn btn-lg btn-primary" disabled>Corporate support w/ 2 tickets - DKK 2500</button>
+<button type="button" class="btn btn-lg btn-primary" disabled>Corporate Supporter w/ 2 tickets - DKK 2500</button>
 
-<button type="button" class="btn btn-lg btn-primary" disabled>Corporate support w/ 5 tickets - DKK 5000</button>
+<button type="button" class="btn btn-lg btn-primary" disabled>Corporate Supporter w/ 5 tickets - DKK 5000</button>
 
-After ordering a corporate support package, you will be sent a manual email with
+After ordering a Corporate Supporter package, you will be sent a manual email with
 further instructions and access to order tickets.
 
 ## Tickets include:
