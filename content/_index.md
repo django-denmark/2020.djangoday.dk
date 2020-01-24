@@ -106,15 +106,15 @@ If you want to help us with Django Day, please send us an email to
 
 ## DjangoCon Europe 2019
 
-At first, we decided that we would do another Django Day 2019 in Copenhagen.
+We originally decided that we would do another Django Day 2019 in Copenhagen.
 But then we got pretty caught up in organizing DjangoCon Europe 2019 in
-Copenhagen.
+Copenhagen and postponed Django Day.
 
-Please have a look here: [2019.djangocon.eu](https://2019.djangocon.eu)
+The event is archived here: [2019.djangocon.eu](https://2019.djangocon.eu)
 
 ## DjangoDay 2018
 
-Django Copenhagen Day 2018 (slides etc. archived [here](https://2018.djangoday.dk/)) was fantastic
-and we'll look forward to the next time! Coming up soon: Plan, date etc. for
-next year + maybe some pictures from last time.. get in touch on twitter and
-don't forget to sign up to the newsletter and on django-denmark.org.
+Django Copenhagen Day 2018 (slides etc. archived [here](https://2018.djangoday.dk/))
+was a fantastic start for Django Denmark. Before this, we had smaller meetups
+for many years, but as they slowed down, we decided to try an bigger
+gathering.
