@@ -41,11 +41,11 @@ Django Day) and your logo and link on the Django Day front page.
 After ordering a Corporate Supporter package, you will be sent a manual email with
 further instructions and access to order tickets.
 
-<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-2020/" target="_blank">Corporate Supporter w/ 1 ticket - DKK 1500</a>
+<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-corporate-support/" target="_blank">Corporate Supporter w/ 1 ticket - DKK 1500</a>
 
-<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-2020/" target="_blank">Corporate Supporter w/ 2 tickets - DKK 2500</a>
+<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-corporate-support/" target="_blank">Corporate Supporter w/ 2 tickets - DKK 2500</a>
 
-<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-2020/" target="_blank">Corporate Supporter w/ 5 tickets - DKK 5000</a>
+<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-corporate-support/" target="_blank">Corporate Supporter w/ 5 tickets - DKK 5000</a>
 
 ## Student / concession tickets
 
