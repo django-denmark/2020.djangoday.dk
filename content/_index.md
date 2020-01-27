@@ -10,8 +10,8 @@ draft: false
 
 * Friday April 17th
 * Location: [Copenhagen, Denmark](/venue/)
-* Happening now: [Call for Participation](/cfp/)
-* Coming up: [Ticket sales](/tickets/)
+* Happening now: [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">SUBMIT NOW</span>
+* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">JUST OPENED</span>
 
 Djangonauts from in and around Denmark are meeting up for the second edition of
 Django Day, to be held on April 17th 2020. It will be a full day of talks
@@ -42,9 +42,9 @@ alt="Main speaker"
 class="img-speaker float-right" 
 >}}
 
-## Chris Adams
+## Greening Django
 
-### Greening Django
+##### Chris Adams
 
 We're in a climate emergency, and as the world goes digital, we run the risk
 from going from software eating the world, to software heating the world.
@@ -64,9 +64,9 @@ alt="Main speaker"
 class="img-speaker float-right" 
 >}}
 
-## Nynne Just Christoffersen
+## Mega-Very-Cool: The story of how the MVC Pattern Was Developed
 
-### Mega-Very-Cool: The story of how the MVC Pattern Was Developed
+##### Nynne Just Christoffersen
 
 We all know and love the MVC pattern. But why is it so great? Did you ever work
 with a project with another worldview? Do you know what came before this
