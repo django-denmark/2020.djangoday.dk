@@ -26,9 +26,9 @@ h1, h2, h3, h4, h5
 
 h1
 {
-    background-color: $info;
+    background-color: $primary;
     padding: 10px;
-    border: 3px dotted $primary;
+    border: 3px dotted $info;
     color: #fff;
     border-radius: 20px;
     text-transform: uppercase;
