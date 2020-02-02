@@ -10,7 +10,7 @@ draft: false
 
 * Friday April 17th
 * Location: [Copenhagen, Denmark](/venue/)
-* Happening now: [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">SUBMIT NOW</span>
+* Deadline extended: [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">SUBMIT NOW</span>
 * [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">JUST OPENED</span>
 
 Djangonauts from in and around Denmark are meeting up for the second edition of
@@ -31,7 +31,7 @@ with a round of **lightning talks**, which can be submitted on the day of the ev
 and be drawn during the day.
 
 Please standby, as we announce the full program on March 1st. You can
-[submit your proposal](/cfp/) until February 2nd.
+[submit your proposal](/cfp/) until February 16th (extended from February 2nd).
 
 
 {{< imgProc 

@@ -34,7 +34,7 @@ We are looking for:
 
 ## Deadline 🔥
 
-Submit before **February 2nd 2020 23:59:59 UTC+1**. Program will be announced on March 1st.
+Submit before **February 16th 2020 23:59:59 UTC+1** (extended by 2 weeks). Program will be announced on March 1st.
 
 ## Bonus 🎁
 
