@@ -10,8 +10,8 @@ draft: false
 
 * Friday April 17th
 * Location: [Copenhagen, Denmark](/venue/)
-* Deadline extended: [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">SUBMIT NOW</span>
-* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">JUST OPENED</span>
+* [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">CLOSED</span>
+* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">OPENED</span>
 
 Djangonauts from in and around Denmark are meeting up for the second edition of
 Django Day, to be held on April 17th 2020. It will be a full day of talks
