@@ -75,20 +75,25 @@ of how MVC was developed and why we should really appreciate it.
 
 <div style="clear: both"></div>
 
-{{< imgProc
-img="tba.png"
-command="Fit"
-options="150x150"
-alt="Main building"
-class="img-speaker float-right"
+{{< imgProc 
+img="marco_a.jpeg" 
+command="Fill" 
+options="150x150" 
+alt="Main speaker" 
+class="img-speaker float-right" 
 >}}
 
-## More to come
+## Full-Text search in Django: a journey between different approaches
 
-Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
-7 more names in this space.
+##### Marco Alabruzzo
+
+Full-Text Search is an old problem. There are many solutions: the classic SQL LIKE
+statement, external search index, 3rd party SaaS, PostgreSQL’s trigram...
+This talk will go through the difference between the various approaches, providing
+elements to identify which one is the best for each case.
 
 <div style="clear: both"></div>
+
 
 {{< imgProc
 img="tba.png"
