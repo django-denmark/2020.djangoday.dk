@@ -75,21 +75,111 @@ of how MVC was developed and why we should really appreciate it.
 
 <div style="clear: both"></div>
 
-{{< imgProc 
-img="tba.png" 
-command="Fit" 
-options="150x150" 
-alt="Main building" 
-class="img-speaker float-right" 
+{{< imgProc
+img="tba.png"
+command="Fit"
+options="150x150"
+alt="Main building"
+class="img-speaker float-right"
 >}}
 
-## More to come...
+## More to come
 
-Please [submit your proposal](/cfp/) before the deadline! Even if you have never
-given a talk before, Django Day is open for you. We expect to be able to
-announce 8-12 names, depending on the length of submitted talks.
+Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
+7 more names in this space.
 
 <div style="clear: both"></div>
+
+{{< imgProc
+img="tba.png"
+command="Fit"
+options="150x150"
+alt="Main building"
+class="img-speaker float-right"
+>}}
+
+## More to come
+
+Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
+6+ more names in this space.
+
+<div style="clear: both"></div>
+
+{{< imgProc
+img="tba.png"
+command="Fit"
+options="150x150"
+alt="Main building"
+class="img-speaker float-right"
+>}}
+
+## More to come
+
+Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
+6+ more names in this space.
+
+<div style="clear: both"></div>
+
+{{< imgProc
+img="tba.png"
+command="Fit"
+options="150x150"
+alt="Main building"
+class="img-speaker float-right"
+>}}
+
+## More to come
+
+Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
+6+ more names in this space.
+
+<div style="clear: both"></div>
+
+{{< imgProc
+img="tba.png"
+command="Fit"
+options="150x150"
+alt="Main building"
+class="img-speaker float-right"
+>}}
+
+## More to come
+
+Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
+6+ more names in this space.
+
+<div style="clear: both"></div>
+
+{{< imgProc
+img="tba.png"
+command="Fit"
+options="150x150"
+alt="Main building"
+class="img-speaker float-right"
+>}}
+
+## More to come
+
+Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
+6+ more names in this space.
+
+<div style="clear: both"></div>
+
+{{< imgProc
+img="tba.png"
+command="Fit"
+options="150x150"
+alt="Main building"
+class="img-speaker float-right"
+>}}
+
+## More to come
+
+Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
+6+ more names in this space.
+
+<div style="clear: both"></div>
+
 
 # Who are we?
 
