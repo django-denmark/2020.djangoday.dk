@@ -1,0 +1,17 @@
+<div style="clear: both"></div>
+{{ range where site.RegularPages.ByDate "Section" "talks" }}
+
+<a href="{{ .Permalink }}">
+<img src="{{ .Params.img_name }}" class="img-speaker float-right">
+
+<h2 class="no-link-styling">{{ .Title }}</h2>
+</a>
+
+<h5>{{ .Params.talk_by }}</h5>
+
+<p>
+{{ .Content }}
+</p>
+<div style="clear: both"></div>
+
+{{ end }}
