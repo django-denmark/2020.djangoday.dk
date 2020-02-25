@@ -30,7 +30,7 @@ event, meaning that you won't have to miss anything. The day will end
 with a round of **lightning talks**, which can be submitted on the day of the event,
 and be drawn during the day.
 
-Please standby, as we announce the full program on March 1st. You can
+Please standby, as we announce the full program by March 1st. You can
 [submit your proposal](/cfp/) until February 16th (extended from February 2nd).
 
 
@@ -94,19 +94,22 @@ elements to identify which one is the best for each case.
 
 <div style="clear: both"></div>
 
-
 {{< imgProc
-img="tba.png"
-command="Fit"
+img="iulia.jpeg"
+command="Fill"
 options="150x150"
 alt="Main building"
 class="img-speaker float-right"
 >}}
 
-## More to come
+## The 101 guide to deploying Django
 
-Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
-7 more names in this space.
+##### Iulia Avram
+
+What are some good practices? Can I make a checklist to help me through the process?
+Which web integration interface could I use? What are some common issues that come with each choice?
+How to debug my Django app inside the container?
+Could ASGI be the hero in a cape?
 
 <div style="clear: both"></div>
 
@@ -117,6 +120,7 @@ options="150x150"
 alt="Main building"
 class="img-speaker float-right"
 >}}
+
 
 ## More to come
 
