@@ -141,7 +141,7 @@ class="img-speaker float-right"
 ## More to come
 
 Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
-7 more names in this space.
+4 more names in this space.
 
 <div style="clear: both"></div>
 
@@ -156,7 +156,7 @@ class="img-speaker float-right"
 ## More to come
 
 Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
-7 more names in this space.
+4 more names in this space.
 
 <div style="clear: both"></div>
 
@@ -171,7 +171,7 @@ class="img-speaker float-right"
 ## More to come
 
 Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
-7 more names in this space.
+4 more names in this space.
 
 <div style="clear: both"></div>
 
@@ -186,7 +186,7 @@ class="img-speaker float-right"
 ## More to come
 
 Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
-7 more names in this space.
+4 more names in this space.
 
 <div style="clear: both"></div>
 
