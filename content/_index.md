@@ -114,18 +114,19 @@ Could ASGI be the hero in a cape?
 <div style="clear: both"></div>
 
 {{< imgProc
-img="tba.png"
-command="Fit"
+img="anders.jpeg"
+command="Fill"
 options="150x150"
 alt="Main building"
 class="img-speaker float-right"
 >}}
 
 
-## More to come
+## Introducing iommi - your first pick for a django power cord
 
-Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
-7 more names in this space.
+#### Anders Hovmöller
+
+[iommi](http://iommi.rocks/) is a high level framework to radically accelerate building django apps. Write reusable pages and CRUD views way faster without templates and still customize every bit and end up with almost no code. 
 
 <div style="clear: both"></div>
 
