@@ -194,17 +194,18 @@ In this talk I explore ways to use tools and processes you might be familiar wit
 <div style="clear: both"></div>
 
 {{< imgProc
-img="tba.png"
-command="Fit"
+img="marco_f.jpeg"
+command="Fill"
 options="150x150"
 alt="Main building"
 class="img-speaker float-right"
 >}}
 
-## More to come
+## Django: The No Collar Journey
 
-Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
-2 more names in this space.
+#### Marco Fernandes
+
+Do you want to know how to sell Django like the “pen” from the Wolf Of Wall Street scene? Corporates these days are always looking for the next best thing. Little did I know at the time the next best thing was going to be Django. Let me tell you how a fresh graduate changed things up when tasked with introducing new internal applications for the busy collars of today’s world, all with the help of Django.
 
 <div style="clear: both"></div>
 
