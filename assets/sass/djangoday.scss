@@ -30,9 +30,9 @@ h1, h2, h3, h4, h5
 h1
 {
     font-family: $font-family-monospace;
-    background-color: $info;
-    padding: 10px;
-    border: 3px dotted $primary;
+    background-color: $warning;
+    padding: 10px 15px;
+    //border: 3px dotted $primary;
     color: #fff;
     border-radius: 20px;
     text-transform: uppercase;

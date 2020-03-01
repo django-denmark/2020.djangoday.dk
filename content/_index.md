@@ -131,17 +131,25 @@ class="img-speaker float-right"
 <div style="clear: both"></div>
 
 {{< imgProc
-img="tba.png"
-command="Fit"
+img="klaus.jpeg"
+command="Fill"
 options="150x150"
 alt="Main building"
 class="img-speaker float-right"
 >}}
 
-## More to come
+## API First Design and Django
 
-Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
-4 more names in this space.
+#### Klaus Laube
+
+Let's mess around with contracts, {over,under}fetching and Developer
+eXperience when creating APIs.
+
+When creating an API endpoint in Django, some questions are asked less frequently:
+What about the contract? What about a possible overfetching
+(or underfetching)? What about the
+developer that is going to use the endpoint? Let's look for these
+aspects when creating an API using Django.
 
 <div style="clear: both"></div>
 
