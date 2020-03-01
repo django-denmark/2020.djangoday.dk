@@ -7,13 +7,13 @@ $font-family-monospace: 'Roboto Mono', monospace;
 
 //$font-size-base: 1.05rem;
 
-$primary: #e01a4f;
-$secondary: #f15946;
-$success:  #53b3cb;
-$info:   #f9c22e;
-$warning:  #f15946;
-$danger:   #e01a4f;
-$dark:   #0c090d;
+$primary: #4f345a;
+$secondary: #E01A4F;
+$success:  #274c77;
+$info:   #53B3CB;
+$warning:  #E01A4F;
+$danger:   #E01A4F;
+$dark:   #274c77;
 
 @import "bootstrap/bootstrap";
 
@@ -30,9 +30,9 @@ h1, h2, h3, h4, h5
 h1
 {
     font-family: $font-family-monospace;
-    background-color: $primary;
+    background-color: $info;
     padding: 10px;
-    border: 3px dotted $info;
+    border: 3px dotted $primary;
     color: #fff;
     border-radius: 20px;
     text-transform: uppercase;
@@ -76,7 +76,7 @@ footer
 .img-speaker
 {
     @extend .rounded-circle;
-    border: 3px dotted $primary;
+    border: 3px dotted $warning;
     padding: 2px;
     margin: 20px;
 }
@@ -84,7 +84,7 @@ footer
 .custom-navbar {
   margin-bottom: 1em;
   height: 60px;
-  background-color: $dark;
+  background-color: $warning;
 }
 
 .djangoday-logo

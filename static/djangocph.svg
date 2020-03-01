@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg1566"
    version="1.1"
    viewBox="0 0 70 70.000001"
    height="70mm"
-   width="70mm">
+   width="70mm"
+   sodipodi:docname="djangocph.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1299"
+     inkscape:window-height="713"
+     id="namedview2792"
+     showgrid="false"
+     inkscape:zoom="1.889881"
+     inkscape:cx="147.5178"
+     inkscape:cy="166.86734"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs1560" />
   <metadata
@@ -20,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -33,11 +57,11 @@
        d="m 121.84844,88.398077 h -1.65171 v -1.859492 h 1.65171 z" />
     <path
        id="path38"
-       style="fill:#f9c22e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       style="fill:#4f345a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
        d="m 124.33587,117.65569 h -11.7034 V 97.896603 h 11.7034 z" />
     <path
        id="path40"
-       style="fill:#f9c22e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       style="fill:#274c77;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
        d="m 124.3775,97.622856 h -11.78595 v -2.85151 h 11.78595 z" />
     <path
        id="path42"
@@ -557,10 +581,11 @@
     </g>
     <g
        transform="matrix(0.35277777,0,0,-0.35277777,124.53332,94.799396)"
-       id="g300">
+       id="g300"
+       style="fill:#6096ba;fill-opacity:1">
       <path
          id="path302"
-         style="fill:#f15946;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#6096ba;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 0,0 h -34.151 l 1.17,18.146 h 31.616 z" />
     </g>
     <g
@@ -957,7 +982,7 @@
        d="m 121.07973,114.73398 h -7.6902 v -0.27517 h 7.6902 z" />
     <path
        id="path500"
-       style="fill:#f9c22e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+       style="fill:#274c77;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
        d="M 90.934162,117.492 H 102.45095 V 102.68697 H 90.934162 Z" />
     <g
        transform="matrix(0.35277777,0,0,-0.35277777,92.123587,115.00932)"
@@ -977,10 +1002,11 @@
     </g>
     <g
        transform="matrix(0.35277777,0,0,-0.35277777,93.454759,98.006423)"
-       id="g510">
+       id="g510"
+       style="fill:#6096ba;fill-opacity:1">
       <path
          id="path512"
-         style="fill:#f15946;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#6096ba;fill-opacity:1;fill-rule:nonzero;stroke:none"
          d="m 0,0 h -7.296 v -12.438 h -0.496 v -0.83 h 33.671 v 0.83 H 25.213 V 0 H 4.646 Z" />
     </g>
     <g
