@@ -174,17 +174,22 @@ PubSub, and eventually Open Sourced our solution,
 <div style="clear: both"></div>
 
 {{< imgProc
-img="tba.png"
-command="Fit"
+img="juhis.jpeg"
+command="Fill"
 options="150x150"
 alt="Main building"
 class="img-speaker float-right"
 >}}
 
-## More to come
+## Contemporary Documentation
 
-Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
-2 more names in this space.
+#### Juha-Matti Santala
+
+
+Teams change often. People leave and people join. In addition to those changes, we tend to forget what we were thinking. That's why it's a good practice to document those thoughts, discussions and decisions into a format that doesn't lose them.
+
+In this talk I explore ways to use tools and processes you might be familiar with - version control and project management tools - to help you document the motivation, thoughts and intents behind changes when they happen. You'll get practical tips that you can take back to your work the next day.
+
 
 <div style="clear: both"></div>
 
