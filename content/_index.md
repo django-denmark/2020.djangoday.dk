@@ -154,17 +154,22 @@ aspects when creating an API using Django.
 <div style="clear: both"></div>
 
 {{< imgProc
-img="tba.png"
-command="Fit"
+img="andrew.jpeg"
+command="Fill"
 options="150x150"
 alt="Main building"
 class="img-speaker float-right"
 >}}
 
-## More to come
+## Realizing Relé
 
-Stay around and follow [our Twitter](https://twitter.com/djangocph), as we announce
-4 more names in this space.
+#### Andrew Graham-Yooll
+
+At my workplace, our system architecture has evolved rapidly to fit our
+product needs. One of those needs was the to bring reliable delivery of
+user and system events throughout all our services. We adopted Google
+PubSub, and eventually Open Sourced our solution,
+[Relé](https://medium.com/mercadona-tech/announcing-rel%C3%A9-c2d0540af3b9).
 
 <div style="clear: both"></div>
 
