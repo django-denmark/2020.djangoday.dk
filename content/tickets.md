@@ -15,6 +15,8 @@ Tickets include:
 * Free optional membership of Django Denmark
 * **All prices include 25% VAT and exclude service fees**
 
+If we cancel the event (for instance because of that global virus thing), everyone will of course get their money back.
+
 When ordering tickets, you will be asked questions about dietary preferences and
 if you want to be a member of Django Denmark, our association behind Django Day.
 All of this is with no additional costs.
