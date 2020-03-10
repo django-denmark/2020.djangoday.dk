@@ -3,7 +3,7 @@ title: "Call for Participation"
 date: "2020-01-20"
 ---
 
-Djangonauts from in and around Denmark are meeting up for the second edition of Django Day, to be held on April 17th 2020. It will be a full day of talks, followed by an evening of social events.
+Djangonauts from in and around Denmark are meeting up for the second edition of Django Day, to be held in September 2020. It will be a full day of talks, followed by an evening of social events.
 
 Come and meet your local and excellent community and share with them. Tell us about your idea and your contribution to make this a great day.
 

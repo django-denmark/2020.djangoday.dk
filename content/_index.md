@@ -8,13 +8,14 @@ draft: false
 
 # Django Day 2020
 
-* Friday April 17th
+* **POSTPONED BECAUSE OF GLOBAL COVID-19 OUTBREAK**
+* New date in September to be announced
 * Location: [Copenhagen, Denmark](/venue/)
 * [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">CLOSED</span>
 * [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">OPENED</span>
 
 Djangonauts from in and around Denmark are meeting up for the second edition of
-Django Day, to be held on April 17th 2020. It will be a full day of talks
+Django Day, to be held on (NEW DATE IN SEPTEMBER) 2020. It will be a full day of talks
 followed by an evening of social events.
 
 Come and meet your local and excellent community and share with them.
