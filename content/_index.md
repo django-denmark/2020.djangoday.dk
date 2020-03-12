@@ -12,7 +12,7 @@ draft: false
 * New date in September to be announced
 * Location: [Copenhagen, Denmark](/venue/)
 * [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">CLOSED</span>
-* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">OPENED</span>
+* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">PAUSED</span>
 
 Djangonauts from in and around Denmark are meeting up for the second edition of
 Django Day, to be held on (NEW DATE IN SEPTEMBER) 2020. It will be a full day of talks
