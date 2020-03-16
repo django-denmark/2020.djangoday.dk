@@ -3,7 +3,7 @@ title: "Call for Participation"
 date: "2020-01-20"
 ---
 
-Djangonauts from in and around Denmark are meeting up for the second edition of Django Day, to be held in September 2020. It will be a full day of talks, followed by an evening of social events.
+Djangonauts from in and around Denmark are meeting up for the second edition of Django Day, to be held <del>April 25h</del> September 25th 2020. It will be a full day of talks, followed by an evening of social events.
 
 Come and meet your local and excellent community and share with them. Tell us about your idea and your contribution to make this a great day.
 
@@ -35,6 +35,8 @@ We are looking for:
 ## Deadline 🔥
 
 Submit before **February 16th 2020 23:59:59 UTC+1** (extended by 2 weeks). Program will be announced on March 1st.
+
+After the program was announced, we rescheduled the event, reconfirming most submissions. Therefore, a new CfP will not be held.
 
 ## Bonus 🎁
 

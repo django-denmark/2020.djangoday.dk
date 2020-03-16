@@ -8,14 +8,14 @@ draft: false
 
 # Django Day 2020
 
-* **POSTPONED BECAUSE OF GLOBAL COVID-19 OUTBREAK**
-* New date in September to be announced
+* **COVID-19 POSTPONED OUR EVENT - BUT WE HAVE A NEW DATE**
+* September 25th, 2020 <del>April 17th</del>
 * Location: [Copenhagen, Denmark](/venue/)
 * [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">CLOSED</span>
-* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">PAUSED</span>
+* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">OPEN</span>
 
 Djangonauts from in and around Denmark are meeting up for the second edition of
-Django Day, to be held on (NEW DATE IN SEPTEMBER) 2020. It will be a full day of talks
+Django Day, to be held on September 25th 2020. It will be a full day of talks
 followed by an evening of social events.
 
 Come and meet your local and excellent community and share with them.
@@ -25,14 +25,17 @@ The event will accommodate ~100 people.
 
 # Program
 
-A full day of talks will be presented here, all connected to modern issues faced
-by Django developers of all experiences. And don't worry: It's a single-track
+Django Day is a full day of talks, all connected to modern issues faced
+by Django developers of all experiences. It's a single-track
 event, meaning that you won't have to miss anything. The day will end
 with a round of **lightning talks**, which can be submitted on the day of the event,
 and be drawn during the day.
 
-Please standby, as we announce the full program by March 1st. You can
+The full program was announced March 1st. You could
 [submit your proposal](/cfp/) until February 16th (extended from February 2nd).
+
+A virus came and interrupted our planning, and we rescheduled the whole event from
+taking place on April 17th. Most speakers have reconfirmed, but the program is still subject to adjustments.
 
 
 {{< imgProc 
