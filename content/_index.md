@@ -8,20 +8,21 @@ draft: false
 
 # Django Day 2020
 
-* **COVID-19 POSTPONED OUR EVENT - BUT WE HAVE A NEW DATE**
+* **This event will be streamed live**
 * September 25th, 2020 <del>April 17th</del>
 * Location: [Copenhagen, Denmark](/venue/)
 * [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">CLOSED</span>
-* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">OPEN</span>
+* [Ticket sales](/tickets/) <span class="badge badge-pill badge-info">VENUE</span> <span class="badge badge-pill badge-primary">REMOTE PACKAGE</span> <span class="badge badge-pill badge-success">FREE STREAMING</span>
 
 Djangonauts from in and around Denmark are meeting up for the second edition of
-Django Day, to be held on September 25th 2020. It will be a full day of talks
-followed by an evening of social events.
+Django Day, to be held on September 25th 2020. It will be a full day of talks,
+either to be experienced **online -or- at our venue** with safe social distancing.
 
 Come and meet your local and excellent community and share with them.
 [Tell us](/cfp/) about your idea and your contribution to make this a great day.
 
-The event will accommodate ~100 people.
+The physical event will accommodate 72 people, and the virtual event is unlimited. You can stream the event for free, and
+we highly encourage getting a <a href="">remote package</a>.
 
 # Program
 
