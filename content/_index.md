@@ -43,7 +43,7 @@ taking place on April 17th. Most speakers have reconfirmed, but the program is s
 img="chris.jpeg" 
 command="Fill" 
 options="150x150" 
-alt="Main speaker" 
+alt="Chris" 
 class="img-speaker float-right" 
 >}}
 
@@ -65,7 +65,7 @@ you spend your time as a web professional.
 img="nynne.jpeg" 
 command="Fill" 
 options="150x150" 
-alt="Main speaker" 
+alt="Speaker" 
 class="img-speaker float-right" 
 >}}
 
@@ -84,7 +84,7 @@ of how MVC was developed and why we should really appreciate it.
 img="marco_a.jpeg" 
 command="Fill" 
 options="150x150" 
-alt="Main speaker" 
+alt="Speaker" 
 class="img-speaker float-right" 
 >}}
 
@@ -103,7 +103,7 @@ elements to identify which one is the best for each case.
 img="iulia.jpeg"
 command="Fill"
 options="150x150"
-alt="Main building"
+alt="Speaker"
 class="img-speaker float-right"
 >}}
 
@@ -122,7 +122,7 @@ Could ASGI be the hero in a cape?
 img="anders.jpeg"
 command="Fill"
 options="150x150"
-alt="Main building"
+alt="Speaker"
 class="img-speaker float-right"
 >}}
 
@@ -139,7 +139,7 @@ class="img-speaker float-right"
 img="klaus.jpeg"
 command="Fill"
 options="150x150"
-alt="Main building"
+alt="Anders"
 class="img-speaker float-right"
 >}}
 
@@ -162,7 +162,7 @@ aspects when creating an API using Django.
 img="andrew.jpeg"
 command="Fill"
 options="150x150"
-alt="Main building"
+alt="Speaker"
 class="img-speaker float-right"
 >}}
 
@@ -182,7 +182,7 @@ PubSub, and eventually Open Sourced our solution,
 img="juhis.jpeg"
 command="Fill"
 options="150x150"
-alt="Main building"
+alt="Speaker"
 class="img-speaker float-right"
 >}}
 
@@ -202,7 +202,7 @@ In this talk I explore ways to use tools and processes you might be familiar wit
 img="marco_f.jpeg"
 command="Fill"
 options="150x150"
-alt="Main building"
+alt="Speaker"
 class="img-speaker float-right"
 >}}
 
@@ -214,6 +214,29 @@ Do you want to know how to sell Django like the “pen” from the Wolf Of Wall 
 
 <div style="clear: both"></div>
 
+
+# Supporters
+<br>
+<a href="https://www.magenta.dk/" target="_blank" class="sponsor">
+{{< imgProc
+img="magenta.png"
+command="Fit"
+options="300x150"
+alt="Magenta"
+class="img-sponsor"
+>}}
+</a>
+
+<a href="https://trioptima.com/" target="_blank" class="sponsor">
+{{< imgProc
+img="trioptima.png"
+command="Fit"
+options="250x150"
+alt="Trioptoma"
+class="img-sponsor"
+>}}
+</a>
+<div style="clear: both"></div>
 
 # Who are we?
 

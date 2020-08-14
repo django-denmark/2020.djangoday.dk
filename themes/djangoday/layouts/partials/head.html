@@ -56,9 +56,9 @@
         {{ $homepage = .Name }}
       {{ end }}
     {{ end }}
-    <title>{{ $homepage }} | {{ .Site.Title }}</title>
-    <meta name="twitter:title" content="{{ $homepage }} | {{ .Site.Title }}">
-    <meta property="og:title" content="{{ $homepage }} | {{ .Site.Title }}" />
+    <title>{{ .Site.Title }}</title>
+    <meta name="twitter:title" content="{{ .Site.Title }}">
+    <meta property="og:title" content="{{ .Site.Title }}" />
   {{ else }}
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}">
