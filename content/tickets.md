@@ -60,15 +60,15 @@ Become a Corporate Supporter of Django Denmark:
 * Get tickets to the annual Django Day
 * 1 year of posting jobs on Django Denmark's sites (until next Django Day)
 * Your logo and link on the Django Day front page
-* Your logo on sticker sheets distributed to attendees
+* Your logo on sticker sheets distributed to attendees (*)
 
-After ordering a Corporate Supporter package, you will be sent a manual email with further instructions and access to order tickets.
+After ordering a Corporate Supporter package, you will be sent a manual email with further instructions and access to order tickets (venue or remote).
 
 <a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-corporate-support/" target="_blank">Corporate Supporter w/ 1 ticket - DKK 1500</a>
 
 <a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-corporate-support/" target="_blank">Corporate Supporter w/ 2 tickets - DKK 2500</a>
 
-<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-corporate-support/" target="_blank">Corporate Supporter w/ 5 tickets - DKK 5000</a>
+<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-corporate-support/" target="_blank">Corporate Supporter w/ 5 tickets - DKK 5000*</a>
 
 ## ~~Party ticket~~
 
