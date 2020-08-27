@@ -215,6 +215,24 @@ Do you want to know how to sell Django like the “pen” from the Wolf Of Wall 
 <div style="clear: both"></div>
 
 
+{{< imgProc
+img="luke.jpeg"
+command="Fill"
+options="150x150"
+alt="Speaker"
+class="img-speaker float-right"
+>}}
+
+## Evolution of a View(point)
+
+#### Luke Plant
+
+
+What happens to your code when requirements change? This is one of the biggest challenges in software development, and there are many pitfalls. We'll look at how a single view function might evolve, with lessons learned from Django projects that have been going 15 years, in an evolving ecosystem and a growing understanding of the most effective patterns in OOP.
+
+<div style="clear: both"></div>
+
+
 # Supporters
 <br>
 <a href="https://www.magenta.dk/" target="_blank" class="sponsor">
