@@ -2,13 +2,4 @@
 
   {{ .Content }}
 
-{{ $homepage := "Home" }}
-{{ with .Site.Menus.nav }}
-  {{ range first 1 . }}
-    {{ $homepage = .Name }}
-  {{ end }}
-{{ end }}
-
-{{ partial "talk-list.html" . }}
-
 {{- end -}}
