@@ -1,7 +1,6 @@
 ---
 title: "Realizing Relé"
-date: "2020-04-18T15:40:00"
-publishdate: 2017-03-24
+date: "2020-04-18"
 talk_by: "Andrew Graham-Yooll"
 img_name: "andrew.jpeg"
 ---

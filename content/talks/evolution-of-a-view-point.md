@@ -1,7 +1,6 @@
 ---
 title: "Evolution of a View(point)"
-date: "2020-04-18T15:40:00"
-publishdate: 2017-03-24
+date: "2020-04-18"
 talk_by: "Luke Plant"
 img_name: "luke.jpeg"
 ---

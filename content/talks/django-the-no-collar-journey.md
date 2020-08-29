@@ -1,7 +1,6 @@
 ---
 title: "Django: The No Collar Journey"
-date: "2020-04-18T15:40:00"
-publishdate: 2017-03-24
+date: "2020-04-17T09:45:00"
 talk_by: "Marco Fernandes"
 img_name: "marco_f.jpeg"
 ---

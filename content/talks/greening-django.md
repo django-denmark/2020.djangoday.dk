@@ -1,7 +1,6 @@
 ---
 title: "Greening Django"
-date: "2020-04-17T09:45:00"
-publishdate: 2017-03-24
+date: "2020-04-15"
 talk_by: "Chris Adams"
 img_name: "chris.jpeg"
 ---

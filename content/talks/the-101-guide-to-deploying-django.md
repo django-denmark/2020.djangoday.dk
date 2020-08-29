@@ -1,7 +1,6 @@
 ---
 title: "The 101 guide to deploying Django"
-date: "2020-04-18T15:40:00"
-publishdate: 2017-03-24
+date: "2020-04-16"
 talk_by: "Iulia Avram"
 img_name: "iulia.jpeg"
 ---

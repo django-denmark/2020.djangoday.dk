@@ -1,7 +1,6 @@
 ---
 title: "Mega-Very-Cool: The story of how the MVC Pattern Was Developed"
-date: "2020-04-17T13:15:00"
-publishdate: 2017-03-24
+date: "2020-04-15"
 talk_by: "Nynne Just Christoffersen"
 img_name: "nynne.jpeg"
 ---
