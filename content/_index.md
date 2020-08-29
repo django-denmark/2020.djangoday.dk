@@ -24,7 +24,12 @@ Come and meet your local and excellent community and share with them.
 The physical event will accommodate 72 people, and the virtual event is unlimited. You can stream the event for free, and
 we highly encourage getting a <a href="/tickets/">remote package</a>.
 
+
+<div style="clear: both"></div>
+
+
 # Program
+
 
 Django Day is a full day of talks, all connected to modern issues faced
 by Django developers of all experiences. It's a single-track
@@ -39,223 +44,7 @@ A virus came and interrupted our planning, and we rescheduled the whole event fr
 taking place on April 17th. Most speakers have reconfirmed, but the program is still subject to adjustments.
 
 
-{{< imgProc 
-img="chris.jpeg" 
-command="Fill" 
-options="150x150" 
-alt="Chris" 
-class="img-speaker float-right" 
->}}
-
-## Greening Django
-
-##### Chris Adams
-
-We're in a climate emergency, and as the world goes digital, we run the risk
-from going from software eating the world, to software heating the world.
-
-Chris Adams, from the Green Web Foundation and [ClimateAction.tech](https://climateaction.tech/) will show how
-to quantify the emissions from the digital projects you work on, and how to make
-measurable differences, from optimising code, to thinking structurally about how
-you spend your time as a web professional.
-
-<div style="clear: both"></div>
-
-{{< imgProc 
-img="nynne.jpeg" 
-command="Fill" 
-options="150x150" 
-alt="Speaker" 
-class="img-speaker float-right" 
->}}
-
-## Mega-Very-Cool: The story of how the MVC Pattern Was Developed
-
-##### Nynne Just Christoffersen
-
-We all know and love the MVC pattern. But why is it so great? Did you ever work
-with a project with another worldview? Do you know what came before this
-brilliant and elegant separation solution? This talk takes you through the story
-of how MVC was developed and why we should really appreciate it.
-
-<div style="clear: both"></div>
-
-{{< imgProc 
-img="marco_a.jpeg" 
-command="Fill" 
-options="150x150" 
-alt="Speaker" 
-class="img-speaker float-right" 
->}}
-
-## Full-Text search in Django: a journey between different approaches
-
-##### Marco Alabruzzo
-
-Full-Text Search is an old problem. There are many solutions: the classic SQL LIKE
-statement, external search index, 3rd party SaaS, PostgreSQL’s trigram...
-This talk will go through the difference between the various approaches, providing
-elements to identify which one is the best for each case.
-
-<div style="clear: both"></div>
-
-{{< imgProc
-img="iulia.jpeg"
-command="Fill"
-options="150x150"
-alt="Speaker"
-class="img-speaker float-right"
->}}
-
-## The 101 guide to deploying Django
-
-##### Iulia Avram
-
-What are some good practices? Can I make a checklist to help me through the process?
-Which web integration interface could I use? What are some common issues that come with each choice?
-How to debug my Django app inside the container?
-Could ASGI be the hero in a cape?
-
-<div style="clear: both"></div>
-
-{{< imgProc
-img="anders.jpeg"
-command="Fill"
-options="150x150"
-alt="Speaker"
-class="img-speaker float-right"
->}}
-
-
-## Introducing iommi - your first pick for a django power cord
-
-#### Anders Hovmöller
-
-[iommi](http://iommi.rocks/) is a high level framework to radically accelerate building django apps. Write reusable pages and CRUD views way faster without templates and still customize every bit and end up with almost no code. 
-
-<div style="clear: both"></div>
-
-{{< imgProc
-img="klaus.jpeg"
-command="Fill"
-options="150x150"
-alt="Anders"
-class="img-speaker float-right"
->}}
-
-## API First Design and Django
-
-#### Klaus Laube
-
-Let's mess around with contracts, {over,under}fetching and Developer
-eXperience when creating APIs.
-
-When creating an API endpoint in Django, some questions are asked less frequently:
-What about the contract? What about a possible overfetching
-(or underfetching)? What about the
-developer that is going to use the endpoint? Let's look for these
-aspects when creating an API using Django.
-
-<div style="clear: both"></div>
-
-{{< imgProc
-img="andrew.jpeg"
-command="Fill"
-options="150x150"
-alt="Speaker"
-class="img-speaker float-right"
->}}
-
-## Realizing Relé
-
-#### Andrew Graham-Yooll
-
-At my workplace, our system architecture has evolved rapidly to fit our
-product needs. One of those needs was the to bring reliable delivery of
-user and system events throughout all our services. We adopted Google
-PubSub, and eventually Open Sourced our solution,
-[Relé](https://medium.com/mercadona-tech/announcing-rel%C3%A9-c2d0540af3b9).
-
-<div style="clear: both"></div>
-
-{{< imgProc
-img="juhis.jpeg"
-command="Fill"
-options="150x150"
-alt="Speaker"
-class="img-speaker float-right"
->}}
-
-## Contemporary Documentation
-
-#### Juha-Matti Santala
-
-
-Teams change often. People leave and people join. In addition to those changes, we tend to forget what we were thinking. That's why it's a good practice to document those thoughts, discussions and decisions into a format that doesn't lose them.
-
-In this talk I explore ways to use tools and processes you might be familiar with - version control and project management tools - to help you document the motivation, thoughts and intents behind changes when they happen. You'll get practical tips that you can take back to your work the next day.
-
-
-<div style="clear: both"></div>
-
-{{< imgProc
-img="marco_f.jpeg"
-command="Fill"
-options="150x150"
-alt="Speaker"
-class="img-speaker float-right"
->}}
-
-## Django: The No Collar Journey
-
-#### Marco Fernandes
-
-Do you want to know how to sell Django like the “pen” from the Wolf Of Wall Street scene? Corporates these days are always looking for the next best thing. Little did I know at the time the next best thing was going to be Django. Let me tell you how a fresh graduate changed things up when tasked with introducing new internal applications for the busy collars of today’s world, all with the help of Django.
-
-<div style="clear: both"></div>
-
-
-{{< imgProc
-img="luke.jpeg"
-command="Fill"
-options="150x150"
-alt="Speaker"
-class="img-speaker float-right"
->}}
-
-## Evolution of a View(point)
-
-#### Luke Plant
-
-What happens to your code when requirements change? This is one of the biggest challenges in software development, and there are many pitfalls. We'll look at how a single view function might evolve, with lessons learned from Django projects that have been going 15 years, in an evolving ecosystem and a growing understanding of the most effective patterns in OOP.
-
-This is also an introduction to Luke Plant's very recent work [Django Views — The Right Way](https://spookylukey.github.io/django-views-the-right-way/).
-
-<div style="clear: both"></div>
-
-
-# Supporters
-<br>
-<a href="https://www.magenta.dk/" target="_blank" class="sponsor">
-{{< imgProc
-img="magenta.png"
-command="Fit"
-options="300x150"
-alt="Magenta"
-class="img-sponsor"
->}}
-</a>
-
-<a href="https://trioptima.com/" target="_blank" class="sponsor">
-{{< imgProc
-img="trioptima.png"
-command="Fit"
-options="250x150"
-alt="Trioptoma"
-class="img-sponsor"
->}}
-</a>
-<div style="clear: both"></div>
+{{< talklist >}}
 
 # Who are we?
 
@@ -284,3 +73,27 @@ Django Copenhagen Day 2018 (slides etc. archived [here](https://2018.djangoday.d
 was a fantastic start for Django Denmark. Before this, we had smaller meetups
 for many years, but as they slowed down, we decided to try an bigger
 gathering.
+
+
+# Supporters
+<br>
+<a href="https://www.magenta.dk/" target="_blank" class="sponsor">
+{{< imgProc
+img="magenta.png"
+command="Fit"
+options="300x150"
+alt="Magenta"
+class="img-sponsor"
+>}}
+</a>
+
+<a href="https://trioptima.com/" target="_blank" class="sponsor">
+{{< imgProc
+img="trioptima.png"
+command="Fit"
+options="250x150"
+alt="Trioptoma"
+class="img-sponsor"
+>}}
+</a>
+

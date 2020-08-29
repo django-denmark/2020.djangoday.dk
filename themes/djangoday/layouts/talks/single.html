@@ -1,0 +1,13 @@
+{{- define "main" -}}
+
+{{- $original := ((site.GetPage "/talks").Resources.GetMatch (printf "*%s*" .Params.img_name)) -}}
+{{- $new := "" -}}
+{{- $new = $original.Fill "150x150" -}}
+
+<h1>{{ .Title | markdownify }}</h1>
+<img src="{{ $new.Permalink }}" alt="Speaker" class="img-speaker float-right" />
+<h5>{{ .Params.talk_by }}</h5>
+
+{{ .Content }}
+
+{{- end -}}
