@@ -2,7 +2,12 @@
 {{ range where site.RegularPages.ByDate "Section" "talks" }}
 
 <a href="{{ .Permalink }}">
-<img src="{{ .Params.img_name }}" class="img-speaker float-right">
+
+{{- $original := ((site.GetPage "/talks").Resources.GetMatch (printf "*%s*" .Params.img_name)) -}}
+{{- $new := "" -}}
+{{- $new = $original.Fill "150x150" -}}
+
+<img src="{{ $new.Permalink }}" alt="Speaker" class="img-speaker float-right" />
 
 <h2 class="no-link-styling">{{ .Title }}</h2>
 </a>

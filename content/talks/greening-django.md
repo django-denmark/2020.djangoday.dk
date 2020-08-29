@@ -3,7 +3,7 @@ title: "Greening Django"
 date: "2020-04-17T09:45:00"
 publishdate: 2017-03-24
 talk_by: "Chris Adams"
-img_name: "chris_avatar.jpeg"
+img_name: "chris.jpeg"
 ---
 
 We’re in a climate emergency, and as the world goes digital, we run the risk from going from software eating the world, to software heating the world.
