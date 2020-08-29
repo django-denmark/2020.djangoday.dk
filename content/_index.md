@@ -28,6 +28,24 @@ we highly encourage getting a <a href="/tickets/">remote package</a>.
 <div style="clear: both"></div>
 
 
+# Program
+
+
+Django Day is a full day of talks, all connected to modern issues faced
+by Django developers of all experiences. It's a single-track
+event, meaning that you won't have to miss anything. The day will end
+with a round of **lightning talks**, which can be submitted on the day of the event,
+and be drawn during the day.
+
+The full program was announced March 1st. You could
+[submit your proposal](/cfp/) until February 16th (extended from February 2nd).
+
+A virus came and interrupted our planning, and we rescheduled the whole event from
+taking place on April 17th. Most speakers have reconfirmed, but the program is still subject to adjustments.
+
+
+{{< talklist >}}
+
 # Who are we?
 
 Django Day is brought to you by [Django Denmark](https://www.django-denmark.org/),
@@ -78,22 +96,4 @@ alt="Trioptoma"
 class="img-sponsor"
 >}}
 </a>
-
-# Program 2020
-
-
-Django Day is a full day of talks, all connected to modern issues faced
-by Django developers of all experiences. It's a single-track
-event, meaning that you won't have to miss anything. The day will end
-with a round of **lightning talks**, which can be submitted on the day of the event,
-and be drawn during the day.
-
-The full program was announced March 1st. You could
-[submit your proposal](/cfp/) until February 16th (extended from February 2nd).
-
-A virus came and interrupted our planning, and we rescheduled the whole event from
-taking place on April 17th. Most speakers have reconfirmed, but the program is still subject to adjustments.
-
-
-{{< talklist >}}
 

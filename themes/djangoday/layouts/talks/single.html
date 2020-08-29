@@ -1,14 +1,13 @@
 {{- define "main" -}}
 
+{{- $original := ((site.GetPage "/talks").Resources.GetMatch (printf "*%s*" .Params.img_name)) -}}
+{{- $new := "" -}}
+{{- $new = $original.Fill "150x150" -}}
+
 <h1>{{ .Title | markdownify }}</h1>
-<p>
-  <small class="text-secondary">
-  {{ $customDateFormat := "January 2, 2006" }}
-  {{ with .Site.Params.customDateFormat }}{{ $customDateFormat = . }}{{ end }}
-  {{ .PublishDate.Format $customDateFormat }}{{ if gt .Lastmod .PublishDate }}, updated {{ .Lastmod.Format $customDateFormat }}{{ end }}
-  </small>
-  {{ partial "tags" . }}
-</p>
+<img src="{{ $new.Permalink }}" alt="Speaker" class="img-speaker float-right" />
+<h5>{{ .Params.talk_by }}</h5>
+
 {{ .Content }}
 
 {{- end -}}
