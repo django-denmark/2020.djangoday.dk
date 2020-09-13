@@ -46,7 +46,7 @@ All of this is with no additional costs.
 * Live streaming w/ QA
 * Access to our very own Zulip social space
 
-<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-2020/" target="_blank">Remote package - DKK 50</a>
+<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-2020/" target="_blank">Streaming support - DKK 50</a>
 
 ## Free streaming
 
