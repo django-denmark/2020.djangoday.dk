@@ -25,7 +25,7 @@ When ordering tickets, you will be asked questions about dietary preferences and
 if you want to be a member of Django Denmark, our association behind Django Day.
 All of this is with no additional costs.
 
-<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-2020/" target="_blank">Individual ticket - DKK 500</a>
+<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-2020/" target="_blank">Venue ticket - DKK 500</a>
 
 
 **Remote package** includes:
@@ -47,6 +47,12 @@ All of this is with no additional costs.
 * Access to our very own Zulip social space
 
 <a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-2020/" target="_blank">Remote package - DKK 50</a>
+
+## Free streaming
+
+The event will be free to stream (more information to come), but please register to receive the full information, including how to join our chat platform:
+
+<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-2020/" target="_blank">Free streaming - DKK 0</a>
 
 ## Student / concession tickets
 
