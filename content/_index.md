@@ -21,7 +21,7 @@ either to be experienced **online -or- at our venue** with safe social distancin
 Come and meet your local and excellent community and share with them.
 [Tell us](/cfp/) about your idea and your contribution to make this a great day.
 
-The physical event will accommodate 72 people, and the virtual event is unlimited. You can stream the event for free, and
+The physical event will accommodate <strike>72</strike> 50 people, and the virtual event is unlimited. You can stream the event for free, and
 we highly encourage getting a <a href="/tickets/">remote package</a>.
 
 

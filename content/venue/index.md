@@ -11,7 +11,7 @@ YES! You can buy [a conference package for remote participation](/tickets/), [a 
 
 ## Should I take a COVID-19 test?
 
-As much as it is a responsible choice, we want to have this event take place in a physical space. The venue is limited to 72 participants.
+As much as it is a responsible choice, we want to have this event take place in a physical space. The venue is limited to <strike>72</strike> 50 participants.
 
 We encourage that everyone going gets a fresh COVID-19 test, in order to make the space feel comfortable.
 
