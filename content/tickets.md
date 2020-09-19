@@ -5,6 +5,12 @@ description: Ticket information for Django Day 2020
 draft: false
 ---
 
+## Ticket Deadlines 🔥
+
+* Remote packages: Sunday 20th 15:00 UTC+2
+* Venue tickets: Tuesday 22nd 23:59 UTC+2
+* Free streaming: None
+
 ## Individual tickets
 
 You can also be a corporate supporter w/ tickets. See below.
