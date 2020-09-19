@@ -81,8 +81,18 @@ gathering.
 {{< imgProc
 img="magenta.png"
 command="Fit"
-options="300x150"
+options="300x100"
 alt="Magenta"
+class="img-sponsor"
+>}}
+</a>
+
+<a href="https://letsgo.dk/" target="_blank" class="sponsor">
+{{< imgProc
+img="letsgo.png"
+command="Fit"
+options="320x120"
+alt="LetsGo"
 class="img-sponsor"
 >}}
 </a>
@@ -91,9 +101,11 @@ class="img-sponsor"
 {{< imgProc
 img="trioptima.png"
 command="Fit"
-options="250x150"
+options="250x80"
 alt="Trioptoma"
 class="img-sponsor"
 >}}
 </a>
 
+
+<hr>
