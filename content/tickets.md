@@ -45,7 +45,7 @@ All of this is with no additional costs.
 * Stickers
 * Free optional membership of Django Denmark
 
-<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-2020/" target="_blank">Remote package - DKK 500</a>
+<a class="btn btn-lg btn-primary disabled" aria-disabled="true" href="#" target="_blank">Remote package - DKK 500 (sales closed)</a>
 
 ## Streaming
 
