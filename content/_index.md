@@ -87,12 +87,12 @@ class="img-sponsor"
 >}}
 </a>
 
-<a href="https://letsgo.dk/" target="_blank" class="sponsor">
+<a href="https://letsgofleetsystems.com/" target="_blank" class="sponsor">
 {{< imgProc
-img="letsgo.png"
+img="letsgo-fleet-systems.png"
 command="Fit"
 options="320x120"
-alt="LetsGo"
+alt="LetsGo Fleet Systems"
 class="img-sponsor"
 >}}
 </a>
