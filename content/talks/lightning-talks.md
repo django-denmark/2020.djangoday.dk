@@ -5,11 +5,15 @@ talk_by: "Venue webcam and remote webcams"
 img_name: "pony.png"
 ---
 
-⚡⚡⚡ Announcing streaming/remote 5 min. lightning talks at Django Day CPH. ⚡⚡⚡
+⚡⚡⚡ Announcing streaming/remote 5 minute lightning talks at Django Day Copenhagen ⚡⚡⚡
+
+Lightning talks:
 
 * With or without slides
 * Almost any topic you want
 * New speakers encouraged.
+
+The lightning talks are scheduled to take place 17:10, at the end of Django Day on Friday 25th. You need to [register](/tickets/) for the event.
 
 Remember: It's a **maximum 5 minutes**. The 5 minutes are absolutely non-negotiable, as we cannot upload longer clips to the streaming platform.
 
