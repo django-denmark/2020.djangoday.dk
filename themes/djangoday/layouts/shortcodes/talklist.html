@@ -1,5 +1,5 @@
 <div style="clear: both"></div>
-{{ range where site.RegularPages.ByDate "Section" "talks" }}
+{{ range where (where site.RegularPages.ByDate "Section" "talks") "published" "!=" "false" }}
 
 <a href="{{ .Permalink }}">
 
