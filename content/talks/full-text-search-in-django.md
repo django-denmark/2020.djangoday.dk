@@ -1,6 +1,7 @@
 ---
 title: "Full-Text search in Django: a journey between different approaches"
-date: "2020-04-17"
+date: 2020-04-10T17:10:00+02:00
+talk_date: 2020-09-25T16:35:00+02:00
 talk_by: "Marco Alabruzzo"
 img_name: "marco_a.jpeg"
 ---

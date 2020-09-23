@@ -1,6 +1,7 @@
 ---
 title: "API First Design and Django"
-date: "2020-09-22T09:45:00"
+date: 2020-04-10T17:10:00+02:00
+talk_date: 2020-09-25T11:40:00+02:00
 talk_by: "Klaus Laube"
 img_name: "klaus.jpeg"
 ---

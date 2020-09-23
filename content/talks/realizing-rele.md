@@ -1,6 +1,7 @@
 ---
 title: "Realizing Relé"
-date: "2020-04-18"
+date: 2020-04-10T17:10:00+02:00
+talk_date: 2020-09-25T16:00:00+02:00
 talk_by: "Andrew Graham-Yooll"
 img_name: "andrew.jpeg"
 ---

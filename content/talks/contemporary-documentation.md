@@ -1,6 +1,7 @@
 ---
 title: "Contemporary Documentation"
-date: "2020-04-17"
+date: 2020-04-10T17:10:00+02:00
+talk_date: 2020-09-25T15:00:00+02:00
 talk_by: "Juha-Matti Santala"
 img_name: "juhis.jpeg"
 ---
