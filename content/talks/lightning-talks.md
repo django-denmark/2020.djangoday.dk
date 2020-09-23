@@ -4,6 +4,8 @@ date: 2020-04-10T17:10:00+02:00
 talk_date: 2020-09-25T17:10:00+02:00
 talk_by: "Venue webcam and remote webcams"
 img_name: "pony.png"
+remote: true
+stage: true
 ---
 
 ⚡⚡⚡ Announcing streaming/remote 5 minute lightning talks at Django Day Copenhagen ⚡⚡⚡

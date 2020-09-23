@@ -38,11 +38,7 @@ with a round of **lightning talks**, which can be submitted on the day of the ev
 and be drawn during the day.
 
 The full program was announced March 1st. You could
-[submit your proposal](/cfp/) until February 16th (extended from February 2nd).
-
-A virus came and interrupted our planning, and we rescheduled the whole event from
-taking place on April 17th. Most speakers have reconfirmed, but the program is still subject to adjustments.
-
+[submit your proposal](/cfp/) until February 16th (extended from February 2nd). A virus came and interrupted our planning, and we rescheduled the whole event from taking place on April 17th. Luckily, all speakers re-confirmed.
 
 {{< talklist >}}
 

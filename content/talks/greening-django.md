@@ -4,6 +4,7 @@ date: 2020-04-10T17:10:00+02:00
 talk_date: 2020-09-25T09:45:00+02:00
 talk_by: "Chris Adams"
 img_name: "chris.jpeg"
+stage: true
 ---
 
 We’re in a climate emergency, and as the world goes digital, we run the risk from going from software eating the world, to software heating the world.

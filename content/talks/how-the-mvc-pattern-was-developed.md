@@ -4,6 +4,7 @@ date: 2020-04-10T17:10:00+02:00
 talk_date: 2020-09-25T13:15:00+02:00
 talk_by: "Nynne Just Christoffersen"
 img_name: "nynne.jpeg"
+stage: true
 ---
 
 We all know and love the MVC pattern. But why is it so great? Did you ever work

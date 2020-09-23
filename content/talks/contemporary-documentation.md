@@ -4,6 +4,7 @@ date: 2020-04-10T17:10:00+02:00
 talk_date: 2020-09-25T15:00:00+02:00
 talk_by: "Juha-Matti Santala"
 img_name: "juhis.jpeg"
+remote: true
 ---
 
 Teams change often. People leave and people join. In addition to those changes, we tend to forget what we were thinking. That's why it's a good practice to document those thoughts, discussions and decisions into a format that doesn't lose them.
