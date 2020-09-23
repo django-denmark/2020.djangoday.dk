@@ -11,6 +11,7 @@ draft: false
 * **This is a live event**
   * To connect with others and ask questions, [register for a streaming ticket](/tickets/)
   * Youtube stream: [https://youtu.be/EDAN6Ednp2I](https://youtu.be/EDAN6Ednp2I)
+  * Talks are released separately after the event
 * Location 1: [Copenhagen, Denmark](/venue/)
 * Location 2: The Internet
 * [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">CLOSED</span>
