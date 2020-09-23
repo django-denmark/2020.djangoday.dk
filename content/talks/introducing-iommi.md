@@ -1,7 +1,7 @@
 ---
 title: "Introducing iommi - your first pick for a django power cord"
 date: 2020-04-10T17:10:00+02:00
-talk_date: 2020-09-25T10:40:00+02:00
+talk_date: 2020-09-25T10:50:00+02:00
 talk_by: "Anders Hovmöller"
 img_name: "anders.jpeg"
 remote: true

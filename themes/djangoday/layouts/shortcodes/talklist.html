@@ -1,31 +1,44 @@
 <div style="clear: both"></div>
 {{ range sort (where (where site.RegularPages.ByDate "Section" "talks") "published" "!=" "false") ".Params.talk_date" "asc" }}
 
-<a href="{{ .Permalink }}">
+{{ if .Params.venue_event }}
 
-{{- $original := ((site.GetPage "/talks").Resources.GetMatch (printf "*%s*" .Params.img_name)) -}}
-{{- $new := "" -}}
-{{- $new = $original.Fill "150x150" -}}
+  <h2>
+  <span class="talktime">{{ dateFormat "15:04" .Params.talk_date }}</span>
+  {{ .Title }}
+  </h2>
 
-<img src="{{ $new.Permalink }}" alt="Speaker" class="img-speaker float-right" />
+{{ else }}
+  <a href="{{ .Permalink }}">
 
-<h2 class="no-link-styling">
-<span class="talktime">{{ dateFormat "15:04" .Params.talk_date }}</span>
-{{ .Title }}
-</h2>
-</a>
+  {{- $original := ((site.GetPage "/talks").Resources.GetMatch (printf "*%s*" .Params.img_name)) -}}
+  {{- $new := "" -}}
+  {{- $new = $original.Fill "150x150" -}}
 
-<h5>{{ .Params.talk_by }}
-{{ if .Params.remote }}
-- remote 📽️
+  <img src="{{ $new.Permalink }}" alt="Speaker" class="img-speaker float-right" />
+
+  <h2 class="no-link-styling">
+  <span class="talktime">{{ dateFormat "15:04" .Params.talk_date }}</span>
+  {{ .Title }}
+  </h2>
+  </a>
+
+  <h5>{{ .Params.talk_by }}
+  {{ if .Params.remote }}
+  - remote 📽️
+  {{ end }}
+  {{ if .Params.stage }}
+  - stage 🎤
+  {{ end }}
+  </h5>
+
+  {{ end }}
+
+{{ if .Content }}
+  <p>
+  {{ .Content }}
+  </p>
+  <div style="clear: both"></div>
 {{ end }}
-{{ if .Params.stage }}
-- stage 🎤
-{{ end }}
-</h5>
-<p>
-{{ .Content }}
-</p>
-<div style="clear: both"></div>
 
 {{ end }}
