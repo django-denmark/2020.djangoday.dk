@@ -8,11 +8,13 @@ draft: false
 
 # Django Day 2020
 
-* **This event will be streamed live**
-* September 25th, 2020 <del>April 17th</del>
-* Location: [Copenhagen, Denmark](/venue/)
+* **This is a live event**
+  * To connect with others and ask questions, [register for a streaming ticket](/tickets/)
+  * Youtube stream: [https://youtu.be/EDAN6Ednp2I](https://youtu.be/EDAN6Ednp2I)
+* Location 1: [Copenhagen, Denmark](/venue/)
+* Location 2: The Internet
 * [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">CLOSED</span>
-* [Ticket sales](/tickets/) <span class="badge badge-pill badge-info">VENUE</span> <span class="badge badge-pill badge-primary">REMOTE PACKAGE</span> <span class="badge badge-pill badge-success">FREE STREAMING</span>
+* [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">FREE STREAMING</span> <span class="badge badge-pill badge-warning">VENUE</span> <span class="badge badge-pill badge-warning">REMOTE PACKAGE</span>
 
 Djangonauts from in and around Denmark are meeting up for the second edition of
 Django Day, to be held on September 25th 2020. It will be a full day of talks,
@@ -21,7 +23,7 @@ either to be experienced **online -or- at our venue** with safe social distancin
 Come and meet your local and excellent community and share with them.
 [Tell us](/cfp/) about your idea and your contribution to make this a great day.
 
-The physical event will accommodate <strike>72</strike> 50 people, and the virtual event is unlimited. You can stream the event for free, and
+The physical event will accommodate <strike>150</strike> <strike>72</strike> 50 people, and the virtual event is unlimited. You can stream the event for free, and
 we highly encourage getting a <a href="/tickets/">remote package</a>.
 
 
