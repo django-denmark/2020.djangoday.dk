@@ -17,6 +17,15 @@ stage 🎤
 {{ end }}
 </h5>
 
+<p>
+{{ if .Params.twitter }}
+<a href="https://twitter.com/{{ .Params.twitter }}" target="_blank">🐦 @{{ .Params.twitter }}</a>
+{{ end }}
+{{ if .Params.slides }}
+<a href="/static/slides/{{ .Params.slides }}">🎞️ {{ .Params.slides }}</a>
+{{ end }}
+</p>
+
 {{ .Content }}
 
 {{- end -}}

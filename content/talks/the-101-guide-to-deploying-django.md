@@ -5,6 +5,8 @@ talk_date: 2020-09-25T14:25:00+02:00
 talk_by: "Iulia Avram"
 img_name: "iulia.jpeg"
 remote: true
+twitter: "iulyaav"
+slides: "The 101 guide to deploying Django.pdf"
 ---
 
 What are some good practices? Can I make a checklist to help me through the process?
