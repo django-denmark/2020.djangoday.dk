@@ -8,8 +8,14 @@ draft: false
 
 # Django Day 2020
 
+**Streaming live on September 25th 2020 from 09:45 UTC+2 (Copenhagen time)**
+
+<div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 20px;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EDAN6Ednp2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 * **This is a live event**
-  * To connect with others and ask questions, [register for a streaming ticket](/tickets/)
+  * To connect with speakers and attendees and ask questions etc., [register for a streaming ticket](/tickets/)
   * Youtube stream: [https://youtu.be/EDAN6Ednp2I](https://youtu.be/EDAN6Ednp2I)
   * Talks are released separately after the event
 * Location 1: [Copenhagen, Denmark](/venue/)
