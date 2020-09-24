@@ -10,19 +10,14 @@ draft: false
 
 **Streaming live on September 25th 2020 from 09:45 UTC+2 (Copenhagen time)**
 
-<div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 20px;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EDAN6Ednp2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-* **This is a live event**
-  * To connect with speakers and attendees and ask questions etc., [register for a streaming ticket](/tickets/)
-  * Twitter: Follow [@djangocph](https://twitter.com/djangocph) + follow/use `#djangoday`.
-  * Youtube stream: [https://youtu.be/EDAN6Ednp2I](https://youtu.be/EDAN6Ednp2I)
-  * Talks are released separately after the event
+* Youtube stream: [https://youtu.be/EDAN6Ednp2I](https://youtu.be/EDAN6Ednp2I)
+* To connect with speakers and other participants, ask questions etc., [register for a streaming ticket](/tickets/)
+* Twitter: Follow [@djangocph](https://twitter.com/djangocph) + follow/use `#djangoday`.
 * Location 1: [Copenhagen, Denmark](/venue/)
 * Location 2: The Internet
 * [Call for Participation](/cfp/) <span class="badge badge-pill badge-warning">CLOSED</span>
 * [Ticket sales](/tickets/) <span class="badge badge-pill badge-success">FREE STREAMING</span> <span class="badge badge-pill badge-warning">VENUE</span> <span class="badge badge-pill badge-warning">REMOTE PACKAGE</span>
+* Talks are released separately after the event
 
 Djangonauts from in and around Denmark are meeting up for the second edition of
 Django Day, to be held on September 25th 2020. It will be a full day of talks,
