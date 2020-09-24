@@ -16,6 +16,7 @@ draft: false
 
 * **This is a live event**
   * To connect with speakers and attendees and ask questions etc., [register for a streaming ticket](/tickets/)
+  * Twitter: Sadly [our Twitter account](https://djangoday.dk/) is somehow currently [suspended](https://twitter.com/benjaoming/status/1308376039979126786). Please follow and use `#djangoday` for tweets related to the event.
   * Youtube stream: [https://youtu.be/EDAN6Ednp2I](https://youtu.be/EDAN6Ednp2I)
   * Talks are released separately after the event
 * Location 1: [Copenhagen, Denmark](/venue/)
