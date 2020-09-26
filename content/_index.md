@@ -5,10 +5,16 @@ description: "DjangoDay 2020"
 draft: false
 
 ---
+# SEE YOU IN 2021
+
+Thanks to each and everyone who made this happened and watched at home and at the venue. We will soon upload all the talks and make them available here + announce a new date for 2021.
+
+* Upload talk videos individually <span class="badge badge-pill badge-primary">TODO</span>
+* Announce date for Django Day 2021 <span class="badge badge-pill badge-primary">TODO</span>
 
 # Django Day 2020
 
-**Streaming live on September 25th 2020 from 09:45 UTC+2 (Copenhagen time)**
+**Streaming live on September 25th 2020 from 09:30 UTC+2 (Copenhagen time)**
 
 * Youtube stream: [https://youtu.be/EDAN6Ednp2I](https://youtu.be/EDAN6Ednp2I)
 * To connect with speakers and other participants, ask questions etc., [register for a streaming ticket](/tickets/)
