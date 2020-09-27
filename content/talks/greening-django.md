@@ -6,6 +6,7 @@ talk_by: "Chris Adams"
 img_name: "chris.jpeg"
 stage: true
 twitter: "mrchrisadams"
+youtube_id: "upiK4du5vUI"
 ---
 
 We’re in a climate emergency, and as the world goes digital, we run the risk from going from software eating the world, to software heating the world.

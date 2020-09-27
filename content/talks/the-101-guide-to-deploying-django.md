@@ -7,6 +7,7 @@ img_name: "iulia.jpeg"
 remote: true
 twitter: "iulyaav"
 slides: "The 101 guide to deploying Django.pdf"
+youtube_id: "_ITscqrI-ms"
 ---
 
 What are some good practices? Can I make a checklist to help me through the process?

@@ -6,6 +6,7 @@ talk_by: "Andrew Graham-Yooll"
 img_name: "andrew.jpeg"
 remote: true
 twitter: "yuppiepuppie"
+youtube_id: "zAKcwo5Cyw8"
 ---
 
 At my workplace, our system architecture has evolved rapidly to fit our

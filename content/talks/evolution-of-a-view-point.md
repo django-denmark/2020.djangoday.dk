@@ -6,6 +6,7 @@ talk_by: "Luke Plant"
 img_name: "luke.jpeg"
 remote: true
 twitter: "spookylukey"
+youtube_id: "fgSMJkrpA9A"
 ---
 
 What happens to your code when requirements change? This is one of the biggest challenges in software development, and there are many pitfalls. We'll look at how a single view function might evolve, with lessons learned from Django projects that have been going 15 years, in an evolving ecosystem and a growing understanding of the most effective patterns in OOP.
