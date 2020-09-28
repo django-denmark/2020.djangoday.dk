@@ -9,7 +9,7 @@ draft: false
 
 Thanks to each and everyone who made this happened and watched at home and at the venue. We will soon upload all the talks and make them available here + announce a new date for 2021.
 
-* Upload talk videos individually <span class="badge badge-pill badge-primary">TODO</span>
+* Upload talk videos individually <span class="badge badge-pill badge-primary">✔️</span>
 * Announce date for Django Day 2021 <span class="badge badge-pill badge-primary">TODO</span>
 
 # Django Day 2020
