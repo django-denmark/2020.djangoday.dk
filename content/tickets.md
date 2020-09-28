@@ -31,7 +31,7 @@ When ordering tickets, you will be asked questions about dietary preferences and
 if you want to be a member of Django Denmark, our association behind Django Day.
 All of this is with no additional costs.
 
-<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-2020/" target="_blank">Venue ticket - DKK 500</a>
+<a class="btn btn-lg btn-primary disabled" aria-disabled="true" href="" target="_blank">Venue ticket - DKK 500</a>
 
 
 **Remote package** includes:
@@ -54,11 +54,11 @@ All of this is with no additional costs.
 * Live streaming w/ QA
 * Access to our very own Zulip social space
 
-<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-2020/" target="_blank">Streaming support - DKK 50</a>
+<a class="btn btn-lg btn-primary disabled" href="#" target="_blank">Streaming support - DKK 50</a>
 
 **Free streaming**: The event will be free to stream (more information to come), but please register to receive the full information, including how to join our chat platform:
 
-<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-2020/" target="_blank">Free streaming - DKK 0</a>
+<a class="btn btn-lg btn-primary disabled" aria-disabled="true" href="#" target="_blank">Free streaming - DKK 0</a>
 
 ## Student / concession tickets
 
@@ -76,11 +76,11 @@ Become a Corporate Supporter of Django Denmark:
 
 After ordering a Corporate Supporter package, you will be sent a manual email with further instructions and access to order tickets (venue or remote).
 
-<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-corporate-support/" target="_blank">Corporate Supporter w/ 1 ticket - DKK 1500</a>
+<a class="btn btn-lg btn-primary disabled" aria-disabled="true" href="#" target="_blank">Corporate Supporter w/ 1 ticket - DKK 1500</a>
 
-<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-corporate-support/" target="_blank">Corporate Supporter w/ 2 tickets - DKK 2500</a>
+<a class="btn btn-lg btn-primary disabled" aria-disabled="true" href="#" target="_blank">Corporate Supporter w/ 2 tickets - DKK 2500</a>
 
-<a class="btn btn-lg btn-primary" href="https://djangoday.ticketbutler.io/en/e/django-day-corporate-support/" target="_blank">Corporate Supporter w/ 5 tickets - DKK 5000*</a>
+<a class="btn btn-lg btn-primary disabled" aria-disabled="true" href="#" target="_blank">Corporate Supporter w/ 5 tickets - DKK 5000*</a>
 
 ## ~~Party ticket~~
 
