@@ -4,7 +4,7 @@
   
   {{ hugo.Generator }}
 
-  {{ with .Site.Params.description }}
+  {{ with .Params.description }}
   <meta name="description" content="{{ . }}">
   {{ end }}
 
@@ -26,7 +26,7 @@
 
   <meta property="og:url"         content="{{ .Permalink | absURL }}" />
   <meta itemprop="url" content="{{ .Permalink | absURL }}" />
-  {{ with .Site.Params.description }}
+  {{ with .Params.description }}
   <meta property="og:type" content="article" />
   <meta property="og:description" content="{{ . }}" />
   <meta property="og:image" content="{{ "/static/some_preview_627.png" | absURL }}" />

@@ -6,6 +6,7 @@ talk_by: "Venue webcam and remote webcams"
 img_name: "pony.png"
 remote: true
 stage: true
+description: "Streaming/remote 5 minute lightning talks at Django Day Copenhagen"
 ---
 
 ⚡⚡⚡ Announcing streaming/remote 5 minute lightning talks at Django Day Copenhagen ⚡⚡⚡

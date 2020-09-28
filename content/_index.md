@@ -1,7 +1,7 @@
 ---
 title: "Welcome - Django Day 2020"
 date: "2020-01-20"
-description: "DjangoDay 2020"
+description: "Djangonauts from in and around Denmark are meeting up for the second edition of Django Day Copenhagen, September 25th 2020"
 draft: false
 
 ---

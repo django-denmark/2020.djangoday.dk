@@ -25,10 +25,15 @@
 
   <h5>{{ .Params.talk_by }}
   {{ if .Params.remote }}
-  - remote 📽️
+  - remote 🌍
   {{ end }}
   {{ if .Params.stage }}
   - stage 🎤
+  {{ end }}
+  {{ if .Params.youtube_id }}
+  <a href="{{ .Permalink }}">
+    Watch talk 🎞️
+  </a>
   {{ end }}
   </h5>
 
