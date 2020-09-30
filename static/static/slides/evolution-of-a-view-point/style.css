@@ -1,0 +1,19 @@
+#sec-title-slide .date {
+    display: none;
+}
+
+ .reveal #slide-title h2 {
+    font-size: 2.5em;
+}
+
+.reveal pre {
+    font-family: "JetBrains Mono";
+    width: 100%;
+}
+
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    font-family: "Alegreya";
+    font-style: italic;
+    text-transform: none;
+}

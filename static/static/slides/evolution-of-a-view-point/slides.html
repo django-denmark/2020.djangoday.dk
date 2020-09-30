@@ -1,0 +1,526 @@
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Evolution of a view(point)</title>
+<meta name="author" content="Luke Plant">
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./reveal.js/css/reveal.css">
+
+<link rel="stylesheet" href="./reveal.js/css/theme/white.css" id="theme">
+
+<link rel="stylesheet" href="style.css">
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body style="transition: transform 0.8s ease 0s;">
+<div class="reveal fade center has-vertical-slides has-horizontal-slides ready" role="application" data-transition-speed="default" data-background-transition="fade" style="cursor: none;">
+<div class="slides" style="width: 960px; height: 700px; inset: 50% auto auto 50%; transform: translate(-50%, -50%) scale(0.876343);">
+<section id="sec-title-slide" style="top: 143.5px; display: block;" class="past" aria-hidden="true" hidden="">
+<h1 class="title">Evolution of a view(point)</h1><h2 class="author">Luke Plant</h2><p class="date">Created: 2020-09-25 Fri 12:39</p>
+</section>
+
+
+<section style="top: 0px; display: block;" class="stack past" data-previous-indexv="0" aria-hidden="true" hidden="">
+<section id="slide-title" style="top: 194px; display: block;" class="" aria-hidden="true">
+<h2 id="title">Evolution of a view(point)</h2>
+<aside class="notes"></aside>
+
+</section>
+</section>
+<section style="top: 0px; display: block;" class="stack present" data-previous-indexv="3">
+<section id="slide-history" style="top: 279.5px; display: none;" class="past" aria-hidden="true" hidden="">
+<h2 id="history">History</h2>
+<aside class="notes"></aside>
+
+</section>
+<section id="slide-my-first-view" class="past" style="top: 0px; display: block;" aria-hidden="true" hidden="">
+<h3 id="my-first-view">2005 - My first view</h3>
+<div class="org-src-container">
+
+<pre class="src src-python"><span style="color: #3a81c3; font-weight: bold;">from</span> django.core <span style="color: #3a81c3; font-weight: bold;">import</span> template_loader
+<span style="color: #3a81c3; font-weight: bold;">from</span> django.core.extensions <span style="color: #3a81c3; font-weight: bold;">import</span> DjangoContext <span style="color: #3a81c3; font-weight: bold;">as</span> Context
+<span style="color: #3a81c3; font-weight: bold;">from</span> django.models.camps <span style="color: #3a81c3; font-weight: bold;">import</span> camps
+<span style="color: #3a81c3; font-weight: bold;">from</span> django.utils.httpwrappers <span style="color: #3a81c3; font-weight: bold;">import</span> HttpResponse
+
+<span style="color: #3a81c3; font-weight: bold;">from</span> cciw.apps.cciw.common <span style="color: #3a81c3; font-weight: bold;">import</span> Page
+
+
+<span style="color: #3a81c3; font-weight: bold;">def</span> <span style="color: #6c3163; font-weight: bold;">index</span>(request):
+    <span style="color: #715ab1;">all_camps</span> = camps.get_list(order_by=[<span style="color: #2d9574;">'-year'</span>,<span style="color: #2d9574;">'number'</span>])
+    <span style="color: #715ab1;">years</span> = [camp.year <span style="color: #3a81c3; font-weight: bold;">for</span> camp <span style="color: #3a81c3; font-weight: bold;">in</span> all_camps]
+    <span style="color: #715ab1;">uniqueyears</span> = []
+    <span style="color: #3a81c3; font-weight: bold;">for</span> year <span style="color: #3a81c3; font-weight: bold;">in</span> years:
+        <span style="color: #3a81c3; font-weight: bold;">if</span> <span style="color: #3a81c3; font-weight: bold;">not</span> year <span style="color: #3a81c3; font-weight: bold;">in</span> uniqueyears: uniqueyears.append(year)
+    <span style="color: #715ab1;">t</span> = template_loader.get_template(<span style="color: #2d9574;">'camps/index'</span>)
+    <span style="color: #715ab1;">p</span> = Page(request, title=<span style="color: #2d9574;">"Camps"</span>)
+    <span style="color: #715ab1;">c</span> = Context(request, {<span style="color: #2d9574;">'camps'</span>: all_camps,
+                        <span style="color: #2d9574;">'page'</span>: p,
+                        <span style="color: #2d9574;">'years'</span>: uniqueyears});
+    <span style="color: #3a81c3; font-weight: bold;">return</span> HttpResponse(t.render(c))
+</pre>
+</div>
+
+
+<aside class="notes"></aside>
+
+</section>
+<section id="slide-ajaxy-form-mixin" class="past" style="top: 69.5px; display: block;" aria-hidden="true" hidden="">
+<h3 id="ajaxy-form-mixin">2011 - Started adding CBVs</h3>
+<div class="org-src-container">
+
+<pre class="fragment (appear) visible" data-fragment-index="0"><span style="color: #3a81c3; font-weight: bold;">class</span> <span style="color: #ba2f59; font-weight: bold;">AjaxyFormMixin</span>(<span style="color: #3a81c3;">object</span>):
+    <span style="color: #da8b55;">"""</span>
+<span style="color: #da8b55;">    A FormView subclass that enables the returning of validation</span>
+<span style="color: #da8b55;">    results by JSON if accessed with ?format=json.</span>
+<span style="color: #da8b55;">    """</span>
+    <span style="color: #3a81c3; font-weight: bold;">def</span> <span style="color: #6c3163; font-weight: bold;">post</span>(<span style="color: #3a81c3; font-weight: bold;">self</span>, request, *args, **kwargs):
+        <span style="color: #3a81c3; font-weight: bold;">if</span> request.GET.get(<span style="color: #2d9574;">'format'</span>, <span style="color: #4e3163;">None</span>) == <span style="color: #2d9574;">'json'</span>:
+            <span style="color: #715ab1;">form_class</span> = <span style="color: #3a81c3; font-weight: bold;">self</span>.get_form_class()
+            <span style="color: #715ab1;">form</span> = <span style="color: #3a81c3; font-weight: bold;">self</span>.get_form(form_class)
+            <span style="color: #3a81c3; font-weight: bold;">return</span> HttpResponse(python_to_json(form.errors),
+                                content_type=<span style="color: #2d9574;">'text/javascript'</span>)
+        <span style="color: #3a81c3; font-weight: bold;">else</span>:
+            <span style="color: #3a81c3; font-weight: bold;">return</span> <span style="color: #3a81c3;">super</span>(AjaxyFormMixin, <span style="color: #3a81c3; font-weight: bold;">self</span>).post(
+               request, *args, **kwargs
+            )
+</pre>
+</div>
+
+
+<aside class="notes"></aside>
+
+</section>
+<section id="slide-ajaxy-mro-fixer" class="present" style="top: 87.5px; display: block;">
+<h3 id="ajaxy-mro-fixer">Metaclasses to the rescue (?)</h3>
+<div class="org-src-container">
+
+<pre class="fragment appear visible current-fragment" data-fragment-index="0"><span style="color: #3a81c3; font-weight: bold;">class</span> <span style="color: #ba2f59; font-weight: bold;">AjaxMroFixer</span>(<span style="color: #3a81c3;">type</span>):
+
+    <span style="color: #3a81c3; font-weight: bold;">def</span> <span style="color: #6c3163; font-weight: bold;">mro</span>(cls):
+        <span style="color: #715ab1;">classes</span> = <span style="color: #3a81c3;">type</span>.mro(cls)
+        <span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;"># </span><span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;">Move AjaxyFormMixin to one before last that</span>
+        <span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;"># </span><span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;">has a 'post' method defined.</span>
+        <span style="color: #715ab1;">new_list</span> = [c <span style="color: #3a81c3; font-weight: bold;">for</span> c <span style="color: #3a81c3; font-weight: bold;">in</span> classes <span style="color: #3a81c3; font-weight: bold;">if</span> c <span style="color: #3a81c3; font-weight: bold;">is</span> <span style="color: #3a81c3; font-weight: bold;">not</span> AjaxyFormMixin]
+        <span style="color: #715ab1;">have_post</span> = [c <span style="color: #3a81c3; font-weight: bold;">for</span> c <span style="color: #3a81c3; font-weight: bold;">in</span> new_list <span style="color: #3a81c3; font-weight: bold;">if</span> <span style="color: #2d9574;">'post'</span> <span style="color: #3a81c3; font-weight: bold;">in</span> c.__dict__]
+        <span style="color: #715ab1;">last</span> = have_post[-1]
+        new_list.insert(new_list.index(last), AjaxyFormMixin)
+        <span style="color: #3a81c3; font-weight: bold;">return</span> new_list
+</pre>
+</div>
+
+<p class="fragment appear" data-fragment-index="1">
+(Don't do this!)
+</p>
+
+<aside class="notes"></aside>
+
+</section>
+<section id="slide-write-my-own-base-classes" class="future" aria-hidden="true" style="top: 287px; display: block;" hidden="">
+<h3 id="write-my-own-base-classes">2015 - Wrote my own base classes</h3>
+<aside class="notes"></aside>
+
+</section>
+<section id="slide-rid-of-cbvs" class="future" aria-hidden="true" style="top: 205.5px; display: block;" hidden="">
+<h3 id="rid-of-cbvs">2020 - Got rid of CBVs</h3>
+<ul>
+<li class="fragment appear" data-fragment-index="0">Easier to understand by humans</li>
+<li class="fragment appear" data-fragment-index="1">Much easier for static analysis tools</li>
+<li class="fragment appear" data-fragment-index="2">Shorter!</li>
+
+</ul>
+
+
+<aside class="notes"></aside>
+
+</section>
+</section>
+<section style="top: 0px; display: block;" aria-hidden="true" class="stack future" hidden="">
+<section id="slide-where-we-go-astray" style="top: 225px; display: block;">
+<h2 id="where-we-go-astray">Where did we go astray?</h2>
+<ul>
+<li class="fragment appear" data-fragment-index="0">Chasing the duplication monster</li>
+<li class="fragment appear" data-fragment-index="1">Inheritance instead of composition</li>
+
+</ul>
+
+<aside class="notes"></aside>
+
+</section>
+<section id="slide-duplication-example-1" class="future" aria-hidden="true" style="top: 120px; display: block;">
+<h3 id="duplication-example-1">Duplication Example 1</h3>
+<p class="fragment appear" data-fragment-index="0">
+Surveys go through milestones:
+Scoping, Question Development, Compliance, Fielding, Analysis etc.
+</p>
+
+<p class="fragment appear" data-fragment-index="1">
+Question Development is optional
+</p>
+
+<div class="org-src-container">
+
+<pre class="fragment appear" data-fragment-index="2"><span style="color: #3a81c3; font-weight: bold;">class</span> <span style="color: #ba2f59; font-weight: bold;">Survey</span>(models.Model):
+    <span style="color: #715ab1;">question_development</span> = models.BooleanField()
+
+    <span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;"># </span><span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;">lots more fields …</span>
+</pre>
+</div>
+
+
+
+<aside class="notes"></aside>
+
+
+</section>
+<section id="slide-duplication-example-1-b" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="duplication-example-1-b">Duplication Example 1</h3>
+<blockquote class="fragment appear" data-fragment-index="0">
+<p>
+If Survey.question_development is False for a survey, skip the “Question
+Development” milestone.
+</p>
+</blockquote>
+
+
+<ul class="fragment appear" data-fragment-index="1">
+<li>What milestone comes after Scoping?</li>
+<li>What milestone comes before Compliance?</li>
+<li>Do I need to validate the fields for “Question Development” milestone?</li>
+<li>What do I validate them against?</li>
+
+</ul>
+
+
+<aside class="notes"></aside>
+
+
+</section>
+<section id="slide-duplication-example-2" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="duplication-example-2">Duplication Example 2</h3>
+<p>
+Pricing Questions
+</p>
+
+<div class="org-src-container">
+
+<pre class="fragment appear" data-fragment-index="0"><span style="color: #715ab1;">currency</span> = models.ForeignKey(Currency)
+<span style="color: #715ab1;">min_price</span> = models.DecimalField(max_digits=10, decimal_places=1)
+<span style="color: #715ab1;">max_price</span> = models.DecimalField(max_digits=10, decimal_places=1)
+</pre>
+</div>
+
+
+<aside class="notes"></aside>
+
+</section>
+<section id="slide-duplicated-lines-of-code" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="duplicated-lines-of-code"></h3>
+<blockquote>
+<p>
+Duplicated lines of code is not the problem
+</p>
+</blockquote>
+
+<p class="fragment appear" data-fragment-index="0">
+But:
+</p>
+
+<blockquote class="fragment appear" data-fragment-index="1">
+<p>
+What is going to happen when things change?
+</p>
+</blockquote>
+
+
+<aside class="notes"></aside>
+
+</section>
+<section id="slide-n-requirement" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="n-requirement"></h3>
+<blockquote>
+<p>
+1 requirement in N places ⇒ problem
+</p>
+
+<p>
+N requirements in 1 place ⇒ problem
+</p>
+</blockquote>
+
+<aside class="notes"></aside>
+
+</section>
+</section>
+<section style="top: 0px; display: block;" aria-hidden="true" class="stack future" hidden="">
+<section id="slide-evolution-of-a-single-view" style="top: 279.5px; display: block;">
+<h2 id="evolution-of-a-single-view">Evolution of a single view</h2>
+<aside class="notes"></aside>
+
+
+</section>
+<section id="slide-account-page" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="account-page">The account page</h3>
+<div class="org-src-container">
+
+<pre class="fragment appear" data-fragment-index="0"><span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;"># </span><span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;">FBV</span>
+
+<span style="color: #ba2f59; font-weight: bold;">@login_required</span>
+<span style="color: #3a81c3; font-weight: bold;">def</span> <span style="color: #6c3163; font-weight: bold;">account</span>(request):
+    <span style="color: #3a81c3; font-weight: bold;">return</span> TemplateResponse(request, <span style="color: #2d9574;">'shop/account.html'</span>, {
+        <span style="color: #2d9574;">'user'</span>: request.user,
+    })
+
+
+<span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;"># </span><span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;">CBV</span>
+
+<span style="color: #3a81c3; font-weight: bold;">class</span> <span style="color: #ba2f59; font-weight: bold;">AccountView</span>(LoginRequired, TemplateView):
+    <span style="color: #715ab1;">template_name</span> = <span style="color: #2d9574;">'shop/account.html'</span>
+
+    <span style="color: #3a81c3; font-weight: bold;">def</span> <span style="color: #6c3163; font-weight: bold;">get_context_data</span>(<span style="color: #3a81c3; font-weight: bold;">self</span>, **kwargs):
+        <span style="color: #715ab1;">context</span> = <span style="color: #3a81c3;">super</span>().get_context_data(**kwargs)
+        <span style="color: #715ab1;">context</span>[<span style="color: #2d9574;">'user'</span>] = <span style="color: #3a81c3; font-weight: bold;">self</span>.request.user
+        <span style="color: #3a81c3; font-weight: bold;">return</span> context
+</pre>
+</div>
+
+<aside class="notes"></aside>
+
+</section>
+<section id="slide-account-page-2" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="account-page-2">The account page - with order list</h3>
+<div class="org-src-container">
+
+<pre class="fragment appear" data-fragment-index="0"><span style="color: #ba2f59; font-weight: bold;">@login_required</span>
+<span style="color: #3a81c3; font-weight: bold;">def</span> <span style="color: #6c3163; font-weight: bold;">account</span>(request):
+    <span style="color: #715ab1;">user</span> = request.user
+    <span style="color: #3a81c3; font-weight: bold;">return</span> TemplateResponse(request, <span style="color: #2d9574;">'shop/account.html'</span>, {
+        <span style="color: #2d9574;">'user'</span>: user,
+        <span style="color: #2d9574;">'orders'</span>: user.orders.order_by(<span style="color: #2d9574;">'-order_date'</span>),
+    })
+
+
+<span style="color: #3a81c3; font-weight: bold;">class</span> <span style="color: #ba2f59; font-weight: bold;">AccountView</span>(LoginRequired, TemplateView):
+    <span style="color: #715ab1;">template_name</span> = <span style="color: #2d9574;">'shop/account.html'</span>
+
+    <span style="color: #3a81c3; font-weight: bold;">def</span> <span style="color: #6c3163; font-weight: bold;">get_context_data</span>(<span style="color: #3a81c3; font-weight: bold;">self</span>, **kwargs):
+        <span style="color: #715ab1;">context</span> = <span style="color: #3a81c3;">super</span>().get_context_data(**kwargs)
+        <span style="color: #715ab1;">user</span> = <span style="color: #3a81c3; font-weight: bold;">self</span>.request.user
+        <span style="color: #715ab1;">context</span>[<span style="color: #2d9574;">'user'</span>] = user
+        <span style="color: #715ab1;">context</span>[<span style="color: #2d9574;">'orders'</span>] = user.orders.order_by(<span style="color: #2d9574;">'-order_date'</span>)
+        <span style="color: #3a81c3; font-weight: bold;">return</span> context
+</pre>
+</div>
+
+<aside class="notes"></aside>
+
+
+</section>
+<section id="slide-account-page-3" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="account-page-3">The account page - FBV pagination</h3>
+<div class="org-src-container">
+
+<pre class="fragment appear" data-fragment-index="0"><span style="color: #ba2f59; font-weight: bold;">@login_required</span>
+<span style="color: #3a81c3; font-weight: bold;">def</span> <span style="color: #6c3163; font-weight: bold;">account</span>(request):
+    <span style="color: #715ab1;">orders</span> = request.user.orders.order_by(<span style="color: #2d9574;">'-order_date'</span>)
+    <span style="color: #715ab1;">paginator</span> = Paginator(orders, 10)
+    <span style="color: #715ab1;">page_number</span> = request.GET.get(<span style="color: #2d9574;">'page'</span>)
+    <span style="color: #715ab1;">page_obj</span> = paginator.get_page(page_number)
+
+    <span style="color: #3a81c3; font-weight: bold;">return</span> TemplateResponse(request, <span style="color: #2d9574;">'shop/account.html'</span>, {
+        <span style="color: #2d9574;">'user'</span>: request.user,
+        <span style="color: #2d9574;">'paged_orders'</span>: page_obj,
+    })
+</pre>
+</div>
+
+<aside class="notes"></aside>
+
+
+</section>
+<section id="slide-account-page-4" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="account-page-4">The account page - CBV pagination</h3>
+<div class="org-src-container">
+
+<pre class="src src-python"><span style="color: #3a81c3; font-weight: bold;">class</span> <span style="color: #ba2f59; font-weight: bold;">AccountView</span>(LoginRequired, ListView):
+    <span style="color: #715ab1;">template_name</span> = <span style="color: #2d9574;">'shop/account.html'</span>
+    <span style="color: #715ab1;">paginate_by</span> = 10
+
+    <span style="color: #3a81c3; font-weight: bold;">def</span> <span style="color: #6c3163; font-weight: bold;">get_queryset</span>(<span style="color: #3a81c3; font-weight: bold;">self</span>):
+        <span style="color: #3a81c3; font-weight: bold;">return</span> <span style="color: #3a81c3; font-weight: bold;">self</span>.request.user.orders.order_by(<span style="color: #2d9574;">'-order_date'</span>)
+
+    <span style="color: #3a81c3; font-weight: bold;">def</span> <span style="color: #6c3163; font-weight: bold;">get_context_data</span>(<span style="color: #3a81c3; font-weight: bold;">self</span>, **kwargs):
+        <span style="color: #715ab1;">context</span> = <span style="color: #3a81c3;">super</span>().get_context_data(**kwargs)
+        <span style="color: #715ab1;">context</span>[<span style="color: #2d9574;">'user'</span>] = <span style="color: #3a81c3; font-weight: bold;">self</span>.request.user
+        <span style="color: #3a81c3; font-weight: bold;">return</span> context
+</pre>
+</div>
+
+<aside class="notes"></aside>
+
+</section>
+<section id="slide-account-page-requirements" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="account-page-requirements"></h3>
+<blockquote>
+<p>
+Accounts: <b>show a page</b> with basic user info and <b>a list of</b> recent
+orders, in reverse date <b><b>order</b></b>, <b>paginated into</b> 10 <b>items per page</b>.
+</p>
+
+<p>
+Products: <b>show a page</b> with <b>a list of</b> products that are for sale, in
+alphabetical <b><b>order</b></b>, <b>paginated into</b> 20 <b>items per page</b>.
+</p>
+</blockquote>
+
+
+<aside class="notes"></aside>
+
+
+</section>
+<section id="slide-account-page-fbv-2-list" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="account-page-fbv-2-list">The account page - FBV two lists</h3>
+<div class="org-src-container">
+
+<pre class="fragment appear" data-fragment-index="0"><span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;"># </span><span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;">FBV</span>
+
+<span style="color: #ba2f59; font-weight: bold;">@login_required</span>
+<span style="color: #3a81c3; font-weight: bold;">def</span> <span style="color: #6c3163; font-weight: bold;">account</span>(request):
+    <span style="color: #715ab1;">orders</span> = request.user.orders.order_by(<span style="color: #2d9574;">'-order_date'</span>)
+
+    <span style="color: #3a81c3; font-weight: bold;">return</span> TemplateResponse(request, <span style="color: #2d9574;">'shop/account.html'</span>, {
+        <span style="color: #2d9574;">'user'</span>: request.user,
+        <span style="color: #2d9574;">'in_process_orders'</span>: orders.in_process(),
+        <span style="color: #2d9574;">'shipped_orders'</span>: orders.shipped()[0:5],
+    })
+</pre>
+</div>
+
+
+<aside class="notes"></aside>
+
+
+</section>
+<section id="slide-account-page-cbv-2-lists" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="account-page-cbv-2-lists">The account page - CBV two lists</h3>
+<div class="org-src-container">
+
+<pre class="fragment appear" data-fragment-index="0"><span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;"># </span><span style="color: #1058e0; background-color: #fffaf0; font-weight: bold;">CBV</span>
+
+<span style="color: #3a81c3; font-weight: bold;">class</span> <span style="color: #ba2f59; font-weight: bold;">AccountView</span>(LoginRequired, ListView):
+    <span style="color: #715ab1;">template_name</span> = <span style="color: #2d9574;">'shop/account.html'</span>
+
+    <span style="color: #3a81c3; font-weight: bold;">def</span> <span style="color: #6c3163; font-weight: bold;">get_queryset</span>(<span style="color: #3a81c3; font-weight: bold;">self</span>):
+        <span style="color: #3a81c3; font-weight: bold;">return</span> <span style="color: #3a81c3; font-weight: bold;">self</span>.request.user.orders.in_process()\
+            .order_by(<span style="color: #2d9574;">'-order_date'</span>)
+
+    <span style="color: #3a81c3; font-weight: bold;">def</span> <span style="color: #6c3163; font-weight: bold;">get_context_data</span>(<span style="color: #3a81c3; font-weight: bold;">self</span>, **kwargs):
+        <span style="color: #715ab1;">context</span> = <span style="color: #3a81c3;">super</span>().get_context_data(**kwargs)
+        <span style="color: #715ab1;">context</span>[<span style="color: #2d9574;">'user'</span>] = <span style="color: #3a81c3; font-weight: bold;">self</span>.request.user
+        <span style="color: #715ab1;">context</span>[<span style="color: #2d9574;">'shipped_orders'</span>] = <span style="color: #3a81c3; font-weight: bold;">self</span>.request.user.orders.shipped()\
+            .order_by(<span style="color: #2d9574;">'-order_date'</span>)[0:5]
+        <span style="color: #3a81c3; font-weight: bold;">return</span> context
+</pre>
+</div>
+
+
+<aside class="notes"></aside>
+
+</section>
+<section id="slide-orgbc4a800" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="orgbc4a800">Multiple things on a page</h3>
+<ul>
+<li class="fragment appear" data-fragment-index="0">A page with multiple lists of things.</li>
+<li class="fragment appear" data-fragment-index="1">A page which fetches a single object from the DB, and also a list of related
+objects.</li>
+<li class="fragment appear" data-fragment-index="2">A form with two or more submit buttons - a 'Preview' and a 'Save'.</li>
+<li class="fragment appear" data-fragment-index="3">A page with a form and a list of things.</li>
+
+</ul>
+
+<aside class="notes"></aside>
+
+
+
+</section>
+<section id="slide-account-page-8" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="account-page-8">“Is-a” or “has-a”?</h3>
+<blockquote class="fragment appear" data-fragment-index="0">
+<p>
+The account page is a list of orders
+</p>
+
+<p>
+OR
+</p>
+
+<p>
+The account page has a list of orders
+</p>
+</blockquote>
+
+<aside class="notes"></aside>
+
+</section>
+<section id="slide-favour-composition" class="future" aria-hidden="true" style="top: 350px; display: none;">
+<h3 id="favour-composition"></h3>
+<blockquote>
+<p>
+Favour object composition over
+class inheritance.
+</p>
+</blockquote>
+
+<aside class="notes"></aside>
+</section>
+</section>
+</div>
+<div class="backgrounds"><div class="slide-background past" style="display: block;" data-loaded="true"><div class="slide-background-content"></div></div><div class="slide-background stack past" style="display: block;" data-loaded="true"><div class="slide-background-content"></div><div class="slide-background present" style="display: block;" data-loaded="true"><div class="slide-background-content"></div></div></div><div class="slide-background stack present" style="display: block;" data-loaded="true"><div class="slide-background-content"></div><div class="slide-background past" style="display: none;" data-loaded="true"><div class="slide-background-content"></div></div><div class="slide-background past" style="display: block;" data-loaded="true"><div class="slide-background-content"></div></div><div class="slide-background past" style="display: block;" data-loaded="true"><div class="slide-background-content"></div></div><div class="slide-background present" style="display: block;" data-loaded="true"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: block;" data-loaded="true"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: block;" data-loaded="true"><div class="slide-background-content"></div></div></div><div class="slide-background stack future" style="display: block;" data-loaded="true"><div class="slide-background-content"></div><div class="slide-background present" style="display: block;" data-loaded="true"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: block;" data-loaded="true"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div></div><div class="slide-background stack future" style="display: block;" data-loaded="true"><div class="slide-background-content"></div><div class="slide-background present" style="display: block;" data-loaded="true"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div><div class="slide-background future" style="display: none;"><div class="slide-background-content"></div></div></div></div><div class="progress" style="display: block;"><span style="width: 310.196px;"></span></div><aside class="controls" style="display: block;" data-controls-layout="bottom-right" data-controls-back-arrows="faded"><button class="navigate-left enabled" aria-label="previous slide"><div class="controls-arrow"></div></button><button class="navigate-right highlight enabled" aria-label="next slide"><div class="controls-arrow"></div></button><button class="navigate-up enabled fragmented" aria-label="above slide"><div class="controls-arrow"></div></button><button class="navigate-down highlight enabled fragmented" aria-label="below slide"><div class="controls-arrow"></div></button></aside><div class="slide-number" style="display: block;"><a href="#/slide-ajaxy-mro-fixer"><span class="slide-number-a">6</span></a></div><div class="speaker-notes" data-prevent-swipe="" tabindex="0"></div><div class="pause-overlay"><button class="resume-button">Resume presentation</button></div><div style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px);" id="aria-status-div" aria-live="polite" aria-atomic="true">class AjaxMroFixer(type):
+
+    def mro(cls):
+        classes = type.mro(cls)
+        # Move AjaxyFormMixin to one before last that
+        # has a 'post' method defined.
+        new_list = [c for c in classes if c is not AjaxyFormMixin]
+        have_post = [c for c in new_list if 'post' in c.__dict__]
+        last = have_post[-1]
+        new_list.insert(new_list.index(last), AjaxyFormMixin)
+        return new_list
+</div></div>
+<script src="./reveal.js/js/reveal.js"></script>
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: true,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+mouseWheel: false,
+fragmentInURL: false,
+pdfSeparateFragments: true,
+
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'fade', // see README of reveal.js for options
+transitionSpeed: 'default',
+
+});
+</script>
+
+
+</body></html>
