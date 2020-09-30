@@ -7,6 +7,7 @@ img_name: "marco_a.jpeg"
 stage: true
 youtube_id: "GDta0_IVNxw"
 description: "Full-Text Search is an old problem. There are many solutions: the classic SQL LIKE statement, external search index, 3rd party SaaS, PostgreSQL’s trigram… This talk will go through the difference between the various approaches, providing elements to identify which one is the best for each case."
+slides: "http://slides.com/marcoala/full-text-search-in-django-3bff24"
 ---
 
 Full-Text Search is an old problem. There are many solutions: the classic SQL LIKE statement, external search index, 3rd party SaaS, PostgreSQL’s trigram… This talk will go through the difference between the various approaches, providing elements to identify which one is the best for each case.
