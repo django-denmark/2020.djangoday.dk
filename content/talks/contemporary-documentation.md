@@ -7,7 +7,7 @@ img_name: "juhis.jpeg"
 remote: true
 twitter: "Hamatti"
 youtube_id: "VJsAlgeGN4E"
-slides: "contemporary-documentation-django-day-denmark-web.pdf"
+slides: "/static/slides/contemporary-documentation-django-day-denmark-web.pdf"
 ---
 
 Teams change often. People leave and people join. In addition to those changes, we tend to forget what we were thinking. That's why it's a good practice to document those thoughts, discussions and decisions into a format that doesn't lose them.
