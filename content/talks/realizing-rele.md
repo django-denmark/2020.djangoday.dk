@@ -9,6 +9,7 @@ twitter: "yuppiepuppie"
 description: "At my workplace, our system architecture has evolved rapidly to fit our product needs. One of those needs was the to bring reliable delivery of user and system events throughout all our services. We adopted Google PubSub, and eventually Open Sourced our solution, Relé."
 youtube_id: "zAKcwo5Cyw8"
 slides: "https://docs.google.com/presentation/d/1OTI--ZQLLR3N8ixl4OktEwbXfiau_0BNXicl_3j5uYc/edit?usp=sharing"
+notes: "andrew.jpeg"
 ---
 
 At my workplace, our system architecture has evolved rapidly to fit our

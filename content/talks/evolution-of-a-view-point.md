@@ -9,6 +9,7 @@ twitter: "spookylukey"
 youtube_id: "fgSMJkrpA9A"
 description: "What happens to your code when requirements change? This is one of the biggest challenges in software development, and there are many pitfalls. We'll look at how a single view function might evolve, with lessons learned from Django projects that have been going 15 years, in an evolving ecosystem and a growing understanding of the most effective patterns in OOP."
 slides: "/static/slides/evolution-of-a-view-point/slides.html"
+notes: "luke.jpeg"
 ---
 
 What happens to your code when requirements change? This is one of the biggest challenges in software development, and there are many pitfalls. We'll look at how a single view function might evolve, with lessons learned from Django projects that have been going 15 years, in an evolving ecosystem and a growing understanding of the most effective patterns in OOP.

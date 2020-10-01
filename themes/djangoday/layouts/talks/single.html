@@ -30,10 +30,27 @@ stage 🎤
 
 {{ if .Params.youtube_id }}
 
-<div class="embed-responsive embed-responsive-16by9">
+<h5>Watch the talk</h5>
+
+<div class="embed-responsive embed-responsive-16by9" style="margin-bottom: 20px;">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ .Params.youtube_id }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 {{ end }}
+
+{{ if .Params.notes }}
+
+<h5>Notes by <a href="https://twitter.com/aspigirlcodes" target="_blank">@Sara Peeters</a></h5>
+
+{{- $original2 := ((site.GetPage "/sketch-notes").Resources.GetMatch (printf "*%s*" .Params.notes)) -}}
+{{- $new2 := "" -}}
+{{- $new2 = $original2.Fit "1000x2000" -}}
+
+<a href="{{ $original2.Permalink }}" target="_blank"><img src="{{ $new2.Permalink }}" alt="sketch notes for talk" class="img-responsive" /></a>
+
+{{ end }}
+
+
+
 
 {{- end -}}

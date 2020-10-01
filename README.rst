@@ -1,4 +1,5 @@
-# Running this locally
+Local development
+-----------------
 
 Get Hugo for Ubuntu/Debian::
 

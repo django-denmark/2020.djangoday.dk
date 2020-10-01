@@ -8,6 +8,7 @@ stage: true
 twitter: "mrchrisadams"
 youtube_id: "upiK4du5vUI"
 description: "We’re in a climate emergency, and as the world goes digital, we run the risk from going from software eating the world, to software heating the world."
+notes: "chris.jpeg"
 ---
 
 We’re in a climate emergency, and as the world goes digital, we run the risk from going from software eating the world, to software heating the world.
