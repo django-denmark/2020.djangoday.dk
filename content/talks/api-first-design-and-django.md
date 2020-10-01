@@ -7,8 +7,7 @@ img_name: "klaus.jpeg"
 stage: true
 twitter: "kplaube"
 youtube_id: "cx8JGC_vrM8"
-description: "Let's mess around with contracts, {over,under}fetching and Developer
-eXperience when creating APIs."
+description: "Let's mess around with contracts, {over,under}fetching and Developer eXperience when creating APIs."
 notes: "klaus.jpeg"
 ---
 
