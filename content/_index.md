@@ -1,5 +1,5 @@
 ---
-title: "Welcome - Django Day 2020"
+title: "Welcome - Django Day Copenhagen 2020"
 date: "2020-01-20"
 description: "Djangonauts from in and around Denmark are meeting up for the second edition of Django Day Copenhagen, September 25th 2020"
 draft: false
@@ -7,10 +7,10 @@ draft: false
 ---
 # SEE YOU IN 2021
 
-Thanks to each and everyone who made this happened and watched at home and at the venue. You can see all the talks in the [Program](#program).
+Thanks to each and everyone who made this happened and watched at home and at the venue. You can watch all the talks from 2020 in the [Program](#program).
 
-* Upload talk videos individually <span class="badge badge-pill badge-primary">✔️</span>
-* Announce date for Django Day 2021 <span class="badge badge-pill badge-primary">TODO</span>
+* Upload 2020 talk videos individually <span class="badge badge-pill badge-primary">✔️</span>
+* Announce date for Django Day Copenhagen 2021 <span class="badge badge-pill badge-primary">TODO</span>
 
 # Django Day 2020
 
