@@ -5,12 +5,12 @@ description: "Djangonauts from in and around Denmark are meeting up for the seco
 draft: false
 
 ---
-# SEE YOU IN 2021
+# SEE YOU ON OCTOBER 1ST, 2021 👋
 
 Thanks to each and everyone who made this happen and watched at home and at the venue. You can watch all the talks from 2020 in the [Program](#program).
 
 * Upload 2020 talk videos individually <span class="badge badge-pill badge-primary">✔️</span>
-* Announce date for Django Day Copenhagen 2021 <span class="badge badge-pill badge-primary">TODO</span>
+* Announce date for Django Day Copenhagen 2021 <span class="badge badge-pill badge-primary">✔️</span>
 
 # Django Day 2020
 
