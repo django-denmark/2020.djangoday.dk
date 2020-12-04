@@ -5,7 +5,7 @@ description: "Djangonauts from in and around Denmark are meeting up for the seco
 draft: false
 
 ---
-# SEE YOU ON OCTOBER 1ST, 2021 👋
+# SEE YOU ON SEPTEMBER 24, 2021 👋
 
 Thanks to each and everyone who made this happen and watched at home and at the venue. You can watch all the talks from 2020 in the [Program](#program).
 
